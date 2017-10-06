@@ -18,6 +18,7 @@ public class TestAskMsaSASM40 {
 	Boolean isPresent;
 	Boolean isRequired;
 	Boolean isEnabled;
+	//test add git
 
 	@Given("^Run Browser for Edit Profile$")
 	public void run_Browser_for_Edit_Profile() throws Throwable {
