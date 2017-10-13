@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Edit Profile - Cancel Changes",
+        "description": "",
+        "id": "manage-vip-profile;edit-profile---cancel-changes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3931675595,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSASM58.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2003863675,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSASM58.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1125109955,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSASM58.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1071883605,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSASM58.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2571575495,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSASM58.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76735543,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Profile dropdown",
+            "match": {
+              "location": "TestAskMsaSASM58.click_Profile_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 409818568,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Profile option",
+            "match": {
+              "location": "TestAskMsaSASM58.click_Profile_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 317266973,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Edit Profile button",
+            "match": {
+              "location": "TestAskMsaSASM58.click_Edit_Profile_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1633441767,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Valid Values on all Fields",
+            "match": {
+              "location": "TestAskMsaSASM58.enter_Valid_Values_on_all_Fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 291591813,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Cancel button",
+            "match": {
+              "location": "TestAskMsaSASM58.click_Cancel_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12530111,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate that the User was redirected to previous page",
+            "match": {
+              "location": "TestAskMsaSASM58.validate_that_the_User_was_redirected_to_previous_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159723526,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate that no changes was made",
+            "match": {
+              "location": "TestAskMsaSASM58.validate_that_no_changes_was_made()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 861539304,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close Browser Driver for All fields are valid",
+            "match": {
+              "location": "TestAskMsaSASM58.close_Browser_Driver_for_All_fields_are_valid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Manage VIP Profile",
+    "description": "",
+    "id": "manage-vip-profile",
+    "keyword": "Feature",
+    "uri": "EditProfileCancel.feature"
+  }
+]

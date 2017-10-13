@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="178.288055">
+<testcase classname="Manage VIP Profile" name="Edit Profile - Exceed Character Limit" time="178.288055">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Profile dropdown.................................................passed
+Then Click Profile option...................................................passed
+Then Click Edit Profile button..............................................passed
+Then Enter Values more than the character limit.............................passed
+Then Click Save button......................................................passed
+Then Verify that correct error messages are displayed.......................passed
+Then Close Browser Driver...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

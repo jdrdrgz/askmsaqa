@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.466756">
+<testcase classname="Manage VIP Profile" name="Edit Profile - Cancel Changes" time="14.466756">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Profile dropdown.................................................passed
+Then Click Profile option...................................................passed
+Then Click Edit Profile button..............................................passed
+Then Enter Valid Values on all Fields.......................................passed
+Then Click Cancel button....................................................passed
+Then Validate that the User was redirected to previous page.................passed
+Then Validate that no changes was made......................................passed
+Then Close Browser Driver for All fields are valid..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

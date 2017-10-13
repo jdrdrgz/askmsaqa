@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Edit Profile - Invalid Field Format",
+        "description": "",
+        "id": "manage-vip-profile;edit-profile---invalid-field-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4668786592,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSASM51.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3303693006,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSASM51.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1152115485,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSASM51.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1094004697,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSASM51.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2279619337,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSASM51.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73580457,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Profile dropdown",
+            "match": {
+              "location": "TestAskMsaSASM51.click_Profile_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 388100736,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Profile option",
+            "match": {
+              "location": "TestAskMsaSASM51.click_Profile_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 328410693,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Edit Profile button",
+            "match": {
+              "location": "TestAskMsaSASM51.click_Edit_Profile_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2208102643,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Invalid values",
+            "match": {
+              "location": "TestAskMsaSASM51.enter_Invalid_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 757431748,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Save Changes button",
+            "match": {
+              "location": "TestAskMsaSASM51.click_Save_Changes_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 163110389,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate Error Message",
+            "match": {
+              "location": "TestAskMsaSASM51.validate_Error_Message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 926600432,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close Browser Driver",
+            "match": {
+              "location": "TestAskMsaSASM51.close_Browser_Driver()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Manage VIP Profile",
+    "description": "",
+    "id": "manage-vip-profile",
+    "keyword": "Feature",
+    "uri": "EditProfileInvalidFormat.feature"
+  }
+]

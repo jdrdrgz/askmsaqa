@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="View Employee" name="Manage Employees - View Employees" time="0">
+<skipped><![CDATA[Given Run Browser...........................................................undefined
+When Browser is up, load ASK MSA VIP login page.............................undefined
+Then Enter Username.........................................................undefined
+Then Enter Password.........................................................undefined
+Then Click Login button.....................................................undefined
+Then Click Employees dropdown...............................................undefined
+Then Click Employees........................................................undefined
+Then Verify Employees Header exists.........................................undefined
+Then Verify Add Employee button exists......................................undefined
+Then Verify that Active tab exists..........................................undefined
+Then Verify that Inactive tab exists........................................undefined
+Then Verify that Active Employees Table exists and working..................undefined
+Then Verify that Inactive Employees Table exists and working................undefined
+Then Verify that a message is displayed on the table if no employees exists.undefined
+Then Verify that Show Entries is present....................................undefined
+Then Verify that Search field is present....................................undefined
+Then Verify that Name column is present.....................................undefined
+Then Verify that Employee Number column is present..........................undefined
+Then Verify that Ship column is present.....................................undefined
+Then Verify that Email column is present....................................undefined
+Then Verify that Date of Birth column is present............................undefined
+Then Verify that Action Column is present...................................undefined
+Then Verify that Edit button is present if employees table is not empty.....undefined
+Then Verify that Delete button  is present if employees table is not empty..undefined
+Then Close Browser..........................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

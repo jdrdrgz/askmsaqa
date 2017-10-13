@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Edit Profile - Exceed Character Limit",
+        "description": "",
+        "id": "manage-vip-profile;edit-profile---exceed-character-limit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3985812379,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSASM47.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34541845079,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSASM47.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1161493504,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSASM47.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1105569637,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSASM47.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38075069908,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSASM47.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82759626,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Profile dropdown",
+            "match": {
+              "location": "TestAskMsaSASM47.click_Profile_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67908814696,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Profile option",
+            "match": {
+              "location": "TestAskMsaSASM47.click_Profile_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20447982357,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Edit Profile button",
+            "match": {
+              "location": "TestAskMsaSASM47.click_Edit_Profile_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5561482043,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Values more than the character limit",
+            "match": {
+              "location": "TestAskMsaSASM47.enter_Values_more_than_the_character_limit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4252129298,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Save button",
+            "match": {
+              "location": "TestAskMsaSASM47.click_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 205142986,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that correct error messages are displayed",
+            "match": {
+              "location": "TestAskMsaSASM47.verify_that_correct_error_messages_are_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 959953764,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close Browser Driver",
+            "match": {
+              "location": "TestAskMsaSASM47.close_Browser_Driver_for_Exceed_Character_Limit_First_Name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Manage VIP Profile",
+    "description": "",
+    "id": "manage-vip-profile",
+    "keyword": "Feature",
+    "uri": "EditProfilelimitExceeded.feature"
+  }
+]

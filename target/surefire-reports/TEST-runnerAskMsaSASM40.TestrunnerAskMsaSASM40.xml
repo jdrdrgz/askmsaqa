@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="44" failures="0" name="runnerAskMsaSASM40.TestrunnerAskMsaSASM40" time="0.408" errors="2" skipped="40">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="ASKMSA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="24c9295a3e0d2ebb"/>
+    <property name="POM_ARTIFACTID" value="com.askmsa"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="com.askmsa"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="DESKTOP-3EKF22U$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="ASKMSA"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/ASKMSA/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="USERNAME" value="DESKTOP-3EKF22U$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.0-bin\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/ASKMSA/2/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/ASKMSA/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="DESKTOP-3EKF22U"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="com.askmsa"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-ASKMSA-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="24c9295a3e0d2ebb"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.5.0-bin/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.0-bin"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Program Files\apache-maven-3.5.0-bin\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\apache-maven-3.5.0-bin/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.5.0-bin C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 61887"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_144/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files\apache-maven-3.5.0-bin"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.5.0-bin/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Ask\com.askmsa"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.5.0-bin"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\ASKMSA"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\"/>
+    <property name="MSMPI_BIN" value="C:\Program Files\Microsoft MPI\Bin\"/>
+  </properties>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Given Run Browser for Edit Profile" time="0"/>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="When Browser is up, load ASK MSA VIP login page for Edit Profile" time="0"/>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Enter Username for Edit Profile" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtUsername&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-3EKF22U&apos;, ip: &apos;10.10.5.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\WINDOWS\TEMP\scoped_dir20260_4946}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 71055a78c53344171e82d822ce900651
+*** Element info: {Using=id, value=txtUsername}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtUsername&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-3EKF22U&apos;, ip: &apos;10.10.5.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\WINDOWS\TEMP\scoped_dir20260_4946}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 71055a78c53344171e82d822ce900651
+*** Element info: {Using=id, value=txtUsername}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at stepDefinitionAskMsaSASM40.TestAskMsaSASM40.enter_Username_for_Edit_Profile(TestAskMsaSASM40.java:35)
+	at ✽.Then Enter Username for Edit Profile(EditProfilePage.feature:6)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Scenario: Manage Profile - Edit Profile" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtUsername&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-3EKF22U&apos;, ip: &apos;10.10.5.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\WINDOWS\TEMP\scoped_dir20260_4946}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 71055a78c53344171e82d822ce900651
+*** Element info: {Using=id, value=txtUsername}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;txtUsername&quot;}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-3EKF22U&apos;, ip: &apos;10.10.5.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\WINDOWS\TEMP\scoped_dir20260_4946}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 71055a78c53344171e82d822ce900651
+*** Element info: {Using=id, value=txtUsername}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at stepDefinitionAskMsaSASM40.TestAskMsaSASM40.enter_Username_for_Edit_Profile(TestAskMsaSASM40.java:35)
+	at ✽.Then Enter Username for Edit Profile(EditProfilePage.feature:6)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Enter Password for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Click Login button for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Click Profile dropdown for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Click Profile option for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Click Edit Profile button for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Edit Profile Page is loaded" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Edit Profile header is displayed for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Edit Profile header text is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Personal Details header is displayed for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Personal Details header text is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that First Name label is present for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that First Name label text is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that First Name textfield is present for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that First Name textfield value is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Last Name label is present for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Last Name label text is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Last Name textfield is present for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Last Name textfield value is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Email label is present for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Email label text is correct for Edit Profile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Email textfield is present for Edit Profile" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Email textfield value is correct for Edit Profile" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Company label is present for Edit Profile" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Company label text is correct for Edit Profile" time="0.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Company textfield is present for Edit Profile" time="0.018">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Company textfield value is correct for Edit Profile" time="0.018">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Company textfield is disabled for Edit Profile" time="0.019">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Telephone label is present for Edit Profile" time="0.019">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Telephone label text is correct for Edit Profile" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Telephone textfield is present for Edit Profile" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Telephone textfield value is correct for Edit Profile" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Comments label is present for Edit Profile" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Comments label text is correct for Edit Profile" time="0.022">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Comments textfield is present for Edit Profile" time="0.022">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Comments textfield value is correct for Edit Profile" time="0.023">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Save Changes button is present for Edit Profile" time="0.023">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Save Changes button text is correct for Edit Profile" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Cancel button is present for Edit Profile" time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Validate that Cancel button text is correct for Edit Profile" time="0.025">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Manage Profile - Edit Profile" name="Then Close Browser Driver for Edit Profile" time="0.025">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1142.378878">
+<testcase classname="Add Mult Employee" name="Manage Employees - View Employees" time="1142.378878">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Employees dropdown...............................................passed
+Then Click Employees........................................................passed
+Then Click Add Employee button..............................................passed
+Then Supply all required fields with valid values multiple times and click Save.passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

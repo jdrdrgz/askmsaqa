@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.343556">
+<testcase classname="Manage VIP Profile" name="Edit Profile - Invalid Field Format" time="17.343556">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Profile dropdown.................................................passed
+Then Click Profile option...................................................passed
+Then Click Edit Profile button..............................................passed
+Then Enter Invalid values...................................................passed
+Then Click Save Changes button..............................................passed
+Then Validate Error Message.................................................passed
+Then Close Browser Driver...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
