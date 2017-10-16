@@ -1,4 +1,3 @@
-//test
 ChromeDriver=C:\\Selenium drivers\\chromedriver.exe
 IEDriver= C:\\SeleniumDriver\\IEDriverServer_Win32_3.4.0\\IEDriverServer.exe
 FireFoxDriver= C:\\SeleniumDriver\\geckodriver-v0.16.1-win64\\geckodriver.exe
@@ -142,3 +141,5 @@ EditProfileUrl=http://10.10.5.35/askSafetyMsa/vip-admin/index.php/profile/edit
 	addEmpLName:iptSurname
 	addEmpNum:iptEmpNum
 	addEmpShip:select2-ddlShip-container
+	
+	//test
