@@ -131,6 +131,7 @@ EditProfileUrl=http://10.10.5.35/askSafetyMsa/vip-admin/index.php/profile/edit
 	inputPhone:(+63)1234567890
 	inputComments:Test Comments
 	
+	
 	//Tables
 	tblActiveEmp:tblEmployee
 	tblInactiveEmp:tblInactiveEmployee
