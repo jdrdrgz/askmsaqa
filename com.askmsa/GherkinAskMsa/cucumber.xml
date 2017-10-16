@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.429436">
+<testcase classname="Manage VIP Profile" name="Manage Profile - Edit Profile" time="13.429436">
+<system-out><![CDATA[Given Run Browser for Edit Profile..........................................passed
+When Browser is up, load ASK MSA VIP login page for Edit Profile............passed
+Then Enter Username for Edit Profile........................................passed
+Then Enter Password for Edit Profile........................................passed
+Then Click Login button for Edit Profile....................................passed
+Then Click Profile dropdown for Edit Profile................................passed
+Then Click Profile option for Edit Profile..................................passed
+Then Click Edit Profile button for Edit Profile.............................passed
+Then Validate that Edit Profile Page is loaded..............................passed
+Then Validate that Edit Profile header is displayed for Edit Profile........passed
+Then Validate that Edit Profile header text is correct for Edit Profile.....passed
+Then Validate that Personal Details header is displayed for Edit Profile....passed
+Then Validate that Personal Details header text is correct for Edit Profile.passed
+Then Validate that First Name label is present for Edit Profile.............passed
+Then Validate that First Name label text is correct for Edit Profile........passed
+Then Validate that First Name textfield is present for Edit Profile.........passed
+Then Validate that First Name textfield value is correct for Edit Profile...passed
+Then Validate that Last Name label is present for Edit Profile..............passed
+Then Validate that Last Name label text is correct for Edit Profile.........passed
+Then Validate that Last Name textfield is present for Edit Profile..........passed
+Then Validate that Last Name textfield value is correct for Edit Profile....passed
+Then Validate that Email label is present for Edit Profile..................passed
+Then Validate that Email label text is correct for Edit Profile.............passed
+Then Validate that Email textfield is present for Edit Profile..............passed
+Then Validate that Email textfield value is correct for Edit Profile........passed
+Then Validate that Company label is present for Edit Profile................passed
+Then Validate that Company label text is correct for Edit Profile...........passed
+Then Validate that Company textfield is present for Edit Profile............passed
+Then Validate that Company textfield value is correct for Edit Profile......passed
+Then Validate that Company textfield is disabled for Edit Profile...........passed
+Then Validate that Telephone label is present for Edit Profile..............passed
+Then Validate that Telephone label text is correct for Edit Profile.........passed
+Then Validate that Telephone textfield is present for Edit Profile..........passed
+Then Validate that Telephone textfield value is correct for Edit Profile....passed
+Then Validate that Comments label is present for Edit Profile...............passed
+Then Validate that Comments label text is correct for Edit Profile..........passed
+Then Validate that Comments textfield is present for Edit Profile...........passed
+Then Validate that Comments textfield value is correct for Edit Profile.....passed
+Then Validate that Save Changes button is present for Edit Profile..........passed
+Then Validate that Save Changes button text is correct for Edit Profile.....passed
+Then Validate that Cancel button is present for Edit Profile................passed
+Then Validate that Cancel button text is correct for Edit Profile...........passed
+Then Close Browser Driver for Edit Profile..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
