@@ -20,128 +20,157 @@ STGCMSpassword2:Shipadmin1
 
 //URLs
 STGURLASKMSA=http://dev-ask-msa.com/vip-admin/
-EditProfileUrl=http://10.10.5.35/askSafetyMsa/vip-admin/index.php/profile/edit
+EditProfileUrl=http://dev-ask-msa.com/vip-admin/index.php/profile/edit
+EmployeesUrl=http://dev-ask-msa.com/vip-admin/index.php/employees/
+strViewProfileURL:http://dev-ask-msa.com/vip-admin/index.php/profile
 
 
-	//field id
-	txtUsername=txtUsername
-	txtPassword=txtPassword
-	
-	//login credentials
-	username:jar@shipadmin.com
-	password:test
-	
+//field id
+txtUsername=txtUsername
+txtPassword=txtPassword
 
-	//label id
-	lblName:lbl-fname
-	lblLastName:lbl-lname
-	lblEmail:lbl-mail
-	lblCompany:lbl-company
-	lblPhone:lbl-tel
-	lblEditProfile:edit-prof
-	lblPersonalDetails:p-details
-	lblEditFirstname:edit-lbl-fname
-	lblEditLastName:edit-lbl-lname
-	lblEditEmail:edit-lbl-email
-	lblEditCompany:edit-lbl-company
-	lblEditPhone:edit-lbl-tel
-	lblEditComments:edit-lbl-comments
-	lblSuccessMessage:success-msg
-	lblFNameErr:/html/body/div/div[2]/div[1]/p[2]
-	lblLNameErr:/html/body/div/div[2]/div[1]/p[3]
-	lblEmailErr:/html/body/div/div[2]/div[1]/p[4]
-	lblPhoneErr:/html/body/div/div[2]/div[1]/p[5]
-	lblCommentsErr:/html/body/div/div[2]/div[1]/p[6]
-	lblEmpActiveTab:aTabActive
-	lblEmpInactiveTab:aTabInactive
+//login credentials
+username:jar@shipadmin.com
+password:test
 
-	
-	
-	//field id
-	txtfldName:lbl-v-fname
-	txtfldLastName:lbl-v-lname
-	txtfldEmail:lbl-v-mail
-	txtfldCompany:lbl-v-company
-	txtfldPhone:lbl-v-tel
-	lblFullName:lblFullName
-	txtPersonalInfoHeader:x-title
-	txtFullName:p-name
-	txtfldEditFirstName:info-fname
-	txtfldEditLastName:info-lname
-	txtfldEditEmail:info-email
-	txtfldEditCompany:info-company
-	txtfldEditPhone:edit-tel
-	txtfldEditComments:edit-comment
-	
-	
-	//label text
-	strNameLabel:NAME
-	strLastNameLabel:LAST NAME
-	strEmailLabel:E-MAIL
-	strCompanyLabel:COMPANY
-	strPhoneLabel:TELEPHONE
-	strEditProfile:Edit Profile
-	strPersonalDetails:Personal Details
-	strEditFirstName:First Name
-	strEditLastName:Last Name
-	strEditEmail:Email
-	strEditCompany:Company
-	strEditPhone:Telephone
-	strEditComments:Comments
 
-	//expected values
-	strPersonalInfoHeader:Personal Information
-	strEditProfileBtn:Edit Profile
-	strName:Judy Ann
-	strLastName:Rodriguez
-	strEmail:jar@shipadmin.com
-	strCompany:Disney
-	strTelephoneValue:(+63)4234-65465
-	strComments:test
-	strEditSaveChanges:Save Changes
-	strEditCancelChanges:Cancel
-	strSuccessMessage:Success! Your profile has been changed.
-	strFNameReqErr:The First name field is required.
-	strLNameReqErr:The Last name field is required.
-	strEmailReqErr:The Email field is required.
-	strFNameLimitErr:The First name field cannot exceed 200 characters in length.
-	strLNameLimitErr:The Last name field cannot exceed 200 characters in length.
-	strEmailLimitErr:The Email field cannot exceed 50 characters in length.
-	strPhoneLimitErr:The Telephone field cannot exceed 50 characters in length.
-	strCommentLimitErr:The Comment field cannot exceed 250 characters in length.
-	strFNameInvalidErr:First name is invalid.
-	strLNameInvalidErr:Last name is invalid.
-	strEmailInvalidErr:Email is invalid.
-	strPhoneInvalidErr:Phone is invalid.
-	strViewProfileURL:http://dev-ask-msa.com/vip-admin/index.php/profile
+//label id
+lblName:lbl-fname
+lblLastName:lbl-lname
+lblEmail:lbl-mail
+lblCompany:lbl-company
+lblPhone:lbl-tel
+lblEditProfile:edit-prof
+lblPersonalDetails:p-details
+lblEditFirstname:edit-lbl-fname
+lblEditLastName:edit-lbl-lname
+lblEditEmail:edit-lbl-email
+lblEditCompany:edit-lbl-company
+lblEditPhone:edit-lbl-tel
+lblEditComments:edit-lbl-comments
+lblSuccessMessage:success-msg
+lblFNameErr:/html/body/div/div[2]/div[1]/p[2]
+lblLNameErr:/html/body/div/div[2]/div[1]/p[3]
+lblEmailErr:/html/body/div/div[2]/div[1]/p[4]
+lblPhoneErr:/html/body/div/div[2]/div[1]/p[5]
+lblCommentsErr:/html/body/div/div[2]/div[1]/p[6]
+lblEmpActiveTab:aTabActive
+lblEmpInactiveTab:aTabInactive
+lblEmpAddSuccess:strPrompt
+
+
+
+//field id
+txtfldName:lbl-v-fname
+txtfldLastName:lbl-v-lname
+txtfldEmail:lbl-v-mail
+txtfldCompany:lbl-v-company
+txtfldPhone:lbl-v-tel
+lblFullName:lblFullName
+txtPersonalInfoHeader:x-title
+txtFullName:p-name
+txtfldEditFirstName:info-fname
+txtfldEditLastName:info-lname
+txtfldEditEmail:info-email
+txtfldEditCompany:info-company
+txtfldEditPhone:edit-tel
+txtfldEditComments:edit-comment
+txtFldEmpSearch:tblEmployee_filter
+
+
+//label text
+strNameLabel:NAME
+strLastNameLabel:LAST NAME
+strEmailLabel:E-MAIL
+strCompanyLabel:COMPANY
+strPhoneLabel:TELEPHONE
+strEditProfile:Edit Profile
+strPersonalDetails:Personal Details
+strEditFirstName:First Name
+strEditLastName:Last Name
+strEditEmail:Email
+strEditCompany:Company
+strEditPhone:Telephone
+strEditComments:Comments
+
+//expected values
+strPersonalInfoHeader:Personal Information
+strEditProfileBtn:Edit Profile
+strName:Judy Ann
+strLastName:Rodriguez
+strEmail:jar@shipadmin.com
+strCompany:Disney
+strTelephoneValue:(+63)4234-65465
+strComments:test
+strEditSaveChanges:Save Changes
+strEditCancelChanges:Cancel
+strSuccessMessage:Success! Your profile has been changed.
+strFNameReqErr:The First name field is required.
+strLNameReqErr:The Last name field is required.
+strEmailReqErr:The Email field is required.
+strFNameLimitErr:The First name field cannot exceed 200 characters in length.
+strLNameLimitErr:The Last name field cannot exceed 200 characters in length.
+strEmailLimitErr:The Email field cannot exceed 50 characters in length.
+strPhoneLimitErr:The Telephone field cannot exceed 50 characters in length.
+strCommentLimitErr:The Comment field cannot exceed 250 characters in length.
+strFNameInvalidErr:First name is invalid.
+strLNameInvalidErr:Last name is invalid.
+strEmailInvalidErr:Email is invalid.
+strPhoneInvalidErr:Phone is invalid.
+strSuccessEmpAdd:Employee added!
+strRequiredField:This field is required.
+strNameFormatErr:Dash (-) is the only accepted special character.
+strEmailFormatErr:Please enter a valid email address.
+strPhoneFormatErr:Please enter a valid phone number.
+
+
+//button values
+btnSubmit=txtSubmit
+btnProfileDropDown=nav-info
+btnProfileView=nav-profile
+btnEditProfile:edit-profile-index
+btnEditSaveChanges:save-profile
+btnEditCancelChanges:cancel-profile
+btnAddEmp:btnAddEmployee
+btnAddEmpSave:btnModalSave
+btnAddEmpCancel:btnModalclose
+
+//input Values
+inputFName:Judy
+inputLName:Ugalino
+inputEmail:jdrdrgz@gmail.com
+inputPhone:(+63)1234567890
+inputComments:This is a sample comment done for automation purposes.
+inputShip:Disney Magic
+inputEmpDOB:1986-07-19
+inputAddress:9/F Shipadmin Jaka Building 6780 Ayala Avenue
+inputZip:1226
+inputCity:Makati City
+inputCountry:Philippines
+
+
+//Tables
+tblActiveEmp:tblEmployee
+tblInactiveEmp:tblInactiveEmployee
+
+//Add Emp textFields
+addEmpFName:iptFirstName
+addEmpLName:iptSurname
+addEmpNum:iptEmpNum
+addEmpShip:select2-ddlShip-container
+addEmpEmail:iptEmail
+addEmpDOB:iptDOB
+addEmpComment:iptComment
+addEmpAddress:iptAddress
+addEmpZip:iptZipCode
+addEmpCity:iptCityState
+addEmpCountry:iptCountry
+addEmpPhone:iptPhone
+addEmpActive:iptActive
+addBlankFNameErr:test
+addBlankLNameErr:test
+addBlankEmpNumErr:test
+addBlankShipErr:test
+
+//Edit Employee Value
 	
-	//button values
-	btnSubmit=txtSubmit
-	btnProfileDropDown=nav-info
-	btnProfileView=nav-profile
-	btnEditProfile:edit-profile-index
-	btnEditSaveChanges:save-profile
-	btnEditCancelChanges:cancel-profile
-	btnAddEmp:btnAddEmployee
-	
-	//input Values
-	inputFName:Judy
-	inputLName:Ugalino
-	inputEmail:jdrdrgz@gmail.com
-	inputPhone:(+63)1234567890
-	inputComments:Test Comments
-	
-	
-	//Tables
-	tblActiveEmp:tblEmployee
-	tblInactiveEmp:tblInactiveEmployee
-	
-	//Add Emp textFields
-	addEmpFName:iptFirstName
-	addEmpLName:iptSurname
-	addEmpNum:iptEmpNum
-	addEmpShip:select2-ddlShip-container
-	
-// tstnico
-	
-	//testjudy

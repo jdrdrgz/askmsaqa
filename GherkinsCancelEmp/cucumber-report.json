@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Manage Employees - Add Employee - Cancel",
+        "description": "",
+        "id": "add-employee;manage-employees---add-employee---cancel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4026906330,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2712657466,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1155553304,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1093675886,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1666663673,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83075683,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Employees dropdown",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.click_Employees_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1428382353,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Employees",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.click_Employees()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24803,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Add Employee button",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.click_Add_Employee_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Supply fields with valid values",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Click Cancel",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Verify that user is redirected to Employees Screen",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaAddMultEmp.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Employee",
+    "description": "",
+    "id": "add-employee",
+    "keyword": "Feature",
+    "uri": "CancelAddEmployee.feature"
+  }
+]

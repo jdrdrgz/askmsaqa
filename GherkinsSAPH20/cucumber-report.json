@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Manage Employees - Add Employee - Valid Values",
+        "description": "",
+        "id": "add-employee;manage-employees---add-employee---valid-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4755720252,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH20.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20632142457,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH20.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1188723622,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH20.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1100828499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH20.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4425090851,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH20.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86262843,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Employees dropdown",
+            "match": {
+              "location": "TestAskMsaSAPH20.click_Employees_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2848752975,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Employees",
+            "match": {
+              "location": "TestAskMsaSAPH20.click_Employees()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131158043,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that employee is added in the table",
+            "match": {
+              "location": "TestAskMsaSAPH20.verify_that_employee_is_added_in_the_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2337934252,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH20.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Employee",
+    "description": "",
+    "id": "add-employee",
+    "keyword": "Feature",
+    "uri": "AddEmployeeValidValues.feature"
+  }
+]

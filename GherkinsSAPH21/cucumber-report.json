@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Manage Employees - Edit Employee",
+        "description": "",
+        "id": "edit-employee;manage-employees---edit-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4942712383,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH21.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8346621645,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH21.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1167938024,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH21.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1094672274,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH21.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14498590090,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH21.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88042229,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Employees dropdown",
+            "match": {
+              "location": "TestAskMsaSAPH21.click_Employees_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2085720602,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Employees",
+            "match": {
+              "location": "TestAskMsaSAPH21.click_Employees()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1262644081,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Edit Employee button",
+            "match": {
+              "location": "TestAskMsaSAPH21.click_Edit_Employee_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23947,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Supply fields with valid values",
+            "match": {
+              "location": "TestAskMsaSAPH21.supply_fields_with_valid_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18816,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Save",
+            "match": {
+              "location": "TestAskMsaSAPH21.click_Save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23520,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that user is redirected to Employees Screen",
+            "match": {
+              "location": "TestAskMsaSAPH21.verify_that_user_is_redirected_to_Employees_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33356,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that successful edit message is displayed",
+            "match": {
+              "location": "TestAskMsaSAPH21.verify_that_successful_edit_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31645,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH21.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit Employee",
+    "description": "",
+    "id": "edit-employee",
+    "keyword": "Feature",
+    "uri": "EditEmployee.feature"
+  }
+]

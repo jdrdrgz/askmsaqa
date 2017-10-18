@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.816625">
+<testcase classname="Add Employee" name="Manage Employees - Add Employee - Blank Values" time="15.816625">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[This field is required.]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitionAskMsaSAPH33.TestAskMsaSAPH33.verify_that_an_error_message_is_displayed(TestAskMsaSAPH33.java:80)&#13;&#10;&#9;at ✽.Then Verify that an error message is displayed(AddEmployeeBlankValues.feature:13)&#13;&#10;"><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Employees dropdown...............................................passed
+Then Click Employees........................................................passed
+Then Click Add Employee button..............................................passed
+Then Click Save.............................................................passed
+Then Verify that an error message is displayed..............................failed
+Then Close Browser..........................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[This field is required.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitionAskMsaSAPH33.TestAskMsaSAPH33.verify_that_an_error_message_is_displayed(TestAskMsaSAPH33.java:80)
+	at ✽.Then Verify that an error message is displayed(AddEmployeeBlankValues.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

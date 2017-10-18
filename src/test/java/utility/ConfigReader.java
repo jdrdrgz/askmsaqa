@@ -15,7 +15,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 public class ConfigReader {
     
-        private static final OutputStream OutputStream = null;
 		Properties pro;
         
         public ConfigReader()
@@ -616,6 +615,102 @@ public class ConfigReader {
         
         public String getEmpInactiveTable() {
         	return pro.getProperty("tblInactiveEmp");
+        }
+        
+        public String getShipValue() {
+        	return pro.getProperty("inputShip");
+        }
+        
+        public String getAddEmpSaveBtnId() {
+        	return pro.getProperty("btnAddEmpSave");
+        }
+        
+        public String getAddEmpEmailFld() {
+        	return pro.getProperty("addEmpEmail");
+        }
+        
+        public String getAddEmpDOBFld() {
+        	return pro.getProperty("addEmpDOB");
+        }
+        
+        public String getAddEmpDOBVal() {
+        	return pro.getProperty("inputEmpDOB");
+        }
+        
+        public String getAddEmpCommentFld() {
+        	return pro.getProperty("addEmpComment");
+        }
+        
+        public String getAddEmpAddressFld() {
+        	return pro.getProperty("addEmpAddress");
+        }
+        
+        public String getAddEmpAddressVal() {
+        	return pro.getProperty("inputAddress");
+        }
+        
+        public String getAddEmpZipFld() {
+        	return pro.getProperty("addEmpZip");
+        }
+        
+        public String getAddEmpZipVal() {
+        	return pro.getProperty("inputZip");
+        }
+        
+        public String getAddEmpCityFld() {
+        	return pro.getProperty("addEmpCity");
+        }
+        
+        public String getAddEmpCityVal() {
+        	return pro.getProperty("inputCity");
+        }
+        
+        public String getAddEmpCountryFld() {
+        	return pro.getProperty("addEmpCountry");
+        }
+        
+        public String getAddEmpCountryVal() {
+        	return pro.getProperty("inputCountry");
+        }
+        
+        public String getAddEmpPhoneFld() {
+        	return pro.getProperty("addEmpPhone");
+        }
+        
+        public String getEmployeeUrl() {
+        	return pro.getProperty("EmployeesUrl");
+        }
+        
+        public String getAddEmpSuccessId() {
+        	return pro.getProperty("lblEmpAddSuccess");
+        }
+        
+        public String getAddEmployeeSuccessExpected() {
+        	return pro.getProperty("strSuccessEmpAdd");
+        }
+        
+        public String getRequiredFieldErrMsg() {
+        	return pro.getProperty("strRequiredField");
+        }
+        
+        public String getBlankFNameEmp() {
+        	return pro.getProperty("addBlankFNameErr");
+        }
+        
+        public String getBlankLNameEmp() {
+        	return pro.getProperty("addBlankLNameErr");
+        }
+        
+        public String getBlankEmpNum() {
+        	return pro.getProperty("addBlankEmpNumErr");
+        }
+        
+        public String getBlankShipEmp() {
+        	return pro.getProperty("addBlankShipErr");
+        }
+        
+        public String getInvalidAddEmpName() {
+        	return pro.getProperty("strNameFormatErr");
         }
         
         public static void captureScreenshot(WebDriver driver,String screenshotName)

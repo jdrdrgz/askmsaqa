@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.487073">
+<testcase classname="Edit Employee" name="Manage Employees - Edit Employee" time="33.487073">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Employees dropdown...............................................passed
+Then Click Employees........................................................passed
+Then Click Edit Employee button.............................................passed
+Then Supply fields with valid values........................................passed
+Then Click Save.............................................................passed
+Then Verify that user is redirected to Employees Screen.....................passed
+Then Verify that successful edit message is displayed.......................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
