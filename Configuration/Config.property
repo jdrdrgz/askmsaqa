@@ -173,6 +173,7 @@ addBlankFNameErr:errorLabel_iptFirstName
 addBlankLNameErr:errorLabel_iptSurname
 addBlankEmpNumErr:errorLabel_iptEmpNum
 addBlankShipErr:errorLabel_ddlShip
+emailErrorMessageID:errorLabel_iptEmail
 
 //Edit Employee Value
 strEditFName:Nico
@@ -205,8 +206,8 @@ txtDivisionDropDownId:select2-selDivision-container
 txtSuccessAddShipMsg:Success! You added a ship.
 txtFieldIsRequiredMsg:This field is required.
 txtInvalidFName:First Name is invalid
-txtInvalidLNameShip:Last Name is invalid
-txtInvalidEmailShip:Email is invalid
+txtInvalidLName:Last Name is invalid
+txtInvalidEmail:Email is invalid
 txtSuccessEditShip:Success! You updated a ship.
 
 
