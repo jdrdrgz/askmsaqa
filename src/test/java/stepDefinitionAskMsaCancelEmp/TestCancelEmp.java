@@ -19,56 +19,56 @@ public class TestCancelEmp {
 
 	@Given("^Run Browser$")
 	public void run_Browser() throws Throwable {
-		loadDriver(); 
-	    
+		loadDriver();
+
 	}
-	
+
 	@When("^Browser is up, load ASK MSA VIP login page$")
 	public void browser_is_up_load_ASK_MSA_VIP_login_page() throws Throwable {
 		driver.get(config.getASKMSAUrl());
-	    
+
 	}
-	
+
 	@Then("^Enter Username$")
 	public void enter_Username() throws Throwable {
 		Thread.sleep(1000);
 		driver.findElement(By.id(config.getUserName())).sendKeys(config.getUserNameCred());
-	    
+
 	}
-	
+
 	@Then("^Enter Password$")
 	public void enter_Password() throws Throwable {
 		Thread.sleep(1000);
 		driver.findElement(By.id(config.getPassword())).sendKeys(config.getPasswordCred());
-	    
+
 	}
-	
+
 	@Then("^Click Login button$")
 	public void click_Login_button() throws Throwable {
 		driver.findElement(By.id(config.getbtnsubmit())).click();
-	    
+
 	}
 
 	@Then("^Click Employees dropdown$")
 	public void click_Employees_dropdown() throws Throwable {
 		driver.findElement(By.id("nav-employees")).click();
-	    
+
 	}
 
 	@Then("^Click Employees$")
 	public void click_Employees() throws Throwable {
 		driver.findElement(By.id("nav-employee")).click();
-	    
+
 	}
 
 	@Then("^Click Add Employee button$")
 	public void click_Add_Employee_button() throws Throwable {
 		driver.findElement(By.id(config.getAddEmpButtonId())).click();
-	    
+
 	}
-	
-	@Then("^Supply all required fields with valid values$")
-	public void supply_all_required_fields_with_valid_values() throws Throwable {
+
+	@Then("^Supply fields with valid values$")
+	public void supply_fields_with_valid_values() throws Throwable {
 		Thread.sleep(2000);
 		driver.findElement(By.id(config.getAddEmpFNameField())).sendKeys(config.getRandomName(20));
 		driver.findElement(By.id(config.getAddEmpLNameField())).sendKeys(config.getRandomName(20));
@@ -95,6 +95,7 @@ public class TestCancelEmp {
 		driver.findElement(By.id(config.getAddEmpCityFld())).sendKeys(config.getAddEmpCityVal());
 		driver.findElement(By.id(config.getAddEmpCountryFld())).sendKeys(config.getAddEmpCountryVal());
 		driver.findElement(By.id(config.getAddEmpPhoneFld())).sendKeys(config.getInputPhone());
+
 	}
 
 	@Then("^Click Cancel$")
@@ -102,22 +103,23 @@ public class TestCancelEmp {
 		driver.findElement(By.id("btnModalclose")).click();
 
 	}
-	
+
 	@Then("^Verify that user is redirected to Employees Screen$")
 	public void verify_that_user_is_redirected_to_Employees_Screen() throws Throwable {
-	    String expectedEmpURL = config.getEmployeeUrl();
+		String expectedEmpURL = config.getEmployeeUrl();
 	    String actualEmpUrl = driver.getCurrentUrl();
 	    
 	    Assert.assertEquals(expectedEmpURL, actualEmpUrl);
-	    
+
 	}
-	
 
 	@Then("^Close Browser$")
 	public void close_Browser() throws Throwable {
 		driver.close();
-	    
+
 	}
+
+
 	
 	public static void loadDriver() {
 		System.setProperty("webdriver.chrome.driver", config.getChromePath());

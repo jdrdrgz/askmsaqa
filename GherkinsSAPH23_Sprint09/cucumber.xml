@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.697382">
+<testcase classname="VIP Booking" name="VIP Booking - View Booking Page" time="13.697382">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Organization dropdown............................................passed
+Then Click Ships............................................................passed
+Then Verify that Ships Page is displayed....................................passed
+Then Verify that Ships header is displayed..................................passed
+Then Verify that Add Ship button is displayed...............................passed
+Then Verify that Show Entries option is displayed...........................passed
+Then Verify that Search field is displayed..................................passed
+Then Verify that Ships table is displayed...................................passed
+Then Verify that Name Column is present.....................................passed
+Then Verify that User Name Column is present................................passed
+Then Verify that Contact Person Column is present...........................passed
+Then Verify that IMO Column is present......................................passed
+Then Verify that Division Column is present.................................passed
+Then Verify that Status Column is present...................................passed
+Then Verify that Actions Column is present..................................passed
+Then Verify that Edit button is present.....................................passed
+Then Verify that Delete Column is present...................................passed
+Then Verify that pagination is present......................................passed
+Then Verify that the Number of entries shown label is present...............passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

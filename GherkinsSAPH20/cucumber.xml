@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.506614">
-<testcase classname="Add Employee" name="Manage Employees - Add Employee - Valid Values" time="37.506614">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.735847">
+<testcase classname="Add Employee" name="Manage Employees - Add Employee - Valid Values" time="17.735847">
 <system-out><![CDATA[Given Run Browser...........................................................passed
 When Browser is up, load ASK MSA VIP login page.............................passed
 Then Enter Username.........................................................passed
@@ -7,6 +7,11 @@ Then Enter Password.........................................................pass
 Then Click Login button.....................................................passed
 Then Click Employees dropdown...............................................passed
 Then Click Employees........................................................passed
+Then Click Add Employee button..............................................passed
+Then Supply all required fields with valid values...........................passed
+Then Click Save.............................................................passed
+Then Verify that Employee added successfully message is displayed...........passed
+Then Verify that user is redirected to Employees Screen.....................passed
 Then Verify that employee is added in the table.............................passed
 Then Close Browser..........................................................passed
 ]]></system-out>

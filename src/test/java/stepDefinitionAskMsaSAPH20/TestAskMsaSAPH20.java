@@ -3,7 +3,6 @@ package stepDefinitionAskMsaSAPH20;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -107,7 +106,7 @@ public class TestAskMsaSAPH20 {
 	@Then("^Verify that Employee added successfully message is displayed$")
 	public void verify_that_Employee_added_successfully_message_is_displayed() throws Throwable {
 		String expectedAddEmpSuccessMsg = config.getAddEmployeeSuccessExpected();
-	    String actualAddEmpSuccessMsg = driver.findElement(By.id(config.getAddEmpSuccessId())).getText();
+	    String actualAddEmpSuccessMsg = driver.findElement(By.id(config.getEmpMessageId())).getText();
 	    
 	    Assert.assertEquals(expectedAddEmpSuccessMsg, actualAddEmpSuccessMsg);
 	}
@@ -123,16 +122,8 @@ public class TestAskMsaSAPH20 {
 	
 	@Then("^Verify that employee is added in the table$")
 	public void verify_that_employee_is_added_in_the_table() throws Throwable {
-		WebElement body = driver.findElement(By.id("tblEmployee"));
-        String bodyText = body.getText();
-        System.out.println(bodyText);
+
     
-       // int count = 0;
-       // while (bodyText.contains("0000000")){
-         //   count++;
-          //  bodyText = bodyText.substring(bodyText.indexOf("0000000") + "0000000".length());
-          //  System.out.println("test confirmed");
-       // }
 	}
 	
 	@Then("^Close Browser$")

@@ -12,135 +12,145 @@
         "steps": [
           {
             "result": {
-              "duration": 4026906330,
+              "duration": 4756185946,
               "status": "passed"
             },
             "line": 4,
             "name": "Run Browser",
             "match": {
-              "location": "TestAskMsaAddMultEmp.run_Browser()"
+              "location": "TestCancelEmp.run_Browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2712657466,
+              "duration": 7019402201,
               "status": "passed"
             },
             "line": 5,
             "name": "Browser is up, load ASK MSA VIP login page",
             "match": {
-              "location": "TestAskMsaAddMultEmp.browser_is_up_load_ASK_MSA_VIP_login_page()"
+              "location": "TestCancelEmp.browser_is_up_load_ASK_MSA_VIP_login_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1155553304,
+              "duration": 1165369651,
               "status": "passed"
             },
             "line": 6,
             "name": "Enter Username",
             "match": {
-              "location": "TestAskMsaAddMultEmp.enter_Username()"
+              "location": "TestCancelEmp.enter_Username()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1093675886,
+              "duration": 1065932675,
               "status": "passed"
             },
             "line": 7,
             "name": "Enter Password",
             "match": {
-              "location": "TestAskMsaAddMultEmp.enter_Password()"
+              "location": "TestCancelEmp.enter_Password()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1666663673,
+              "duration": 2644507079,
               "status": "passed"
             },
             "line": 8,
             "name": "Click Login button",
             "match": {
-              "location": "TestAskMsaAddMultEmp.click_Login_button()"
+              "location": "TestCancelEmp.click_Login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 83075683,
+              "duration": 122070811,
               "status": "passed"
             },
             "line": 9,
             "name": "Click Employees dropdown",
             "match": {
-              "location": "TestAskMsaAddMultEmp.click_Employees_dropdown()"
+              "location": "TestCancelEmp.click_Employees_dropdown()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1428382353,
+              "duration": 2252079372,
               "status": "passed"
             },
             "line": 10,
             "name": "Click Employees",
             "match": {
-              "location": "TestAskMsaAddMultEmp.click_Employees()"
+              "location": "TestCancelEmp.click_Employees()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 24803,
+              "duration": 90081191,
               "status": "passed"
             },
             "line": 11,
             "name": "Click Add Employee button",
             "match": {
-              "location": "TestAskMsaAddMultEmp.click_Add_Employee_button()"
+              "location": "TestCancelEmp.click_Add_Employee_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4134457242,
+              "status": "passed"
             },
             "line": 12,
             "name": "Supply fields with valid values",
-            "match": {},
+            "match": {
+              "location": "TestCancelEmp.supply_fields_with_valid_values()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 89130132,
+              "status": "passed"
             },
             "line": 13,
             "name": "Click Cancel",
-            "match": {},
+            "match": {
+              "location": "TestCancelEmp.click_Cancel()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 7428866,
+              "status": "passed"
             },
             "line": 14,
             "name": "Verify that user is redirected to Employees Screen",
-            "match": {},
+            "match": {
+              "location": "TestCancelEmp.verify_that_user_is_redirected_to_Employees_Screen()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 90858631,
+              "status": "passed"
             },
             "line": 15,
             "name": "Close Browser",
             "match": {
-              "location": "TestAskMsaAddMultEmp.close_Browser()"
+              "location": "TestCancelEmp.close_Browser()"
             },
             "keyword": "Then "
           }

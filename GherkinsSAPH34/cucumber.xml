@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.814346">
+<testcase classname="Add Employee" name="Manage Employees - Add Employee - Invalid Values" time="23.814346">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Employees dropdown...............................................passed
+Then Click Employees........................................................passed
+Then Click Add Employee button..............................................passed
+Then Supply fields with invalid values......................................passed
+Then Click Save.............................................................passed
+Then Verify that an error message is displayed..............................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

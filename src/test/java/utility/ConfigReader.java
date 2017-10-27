@@ -681,7 +681,7 @@ public class ConfigReader {
         	return pro.getProperty("EmployeesUrl");
         }
         
-        public String getAddEmpSuccessId() {
+        public String getEmpMessageId() {
         	return pro.getProperty("lblEmpAddSuccess");
         }
         
@@ -711,6 +711,235 @@ public class ConfigReader {
         
         public String getInvalidAddEmpName() {
         	return pro.getProperty("strNameFormatErr");
+        }
+        
+        public String getEditEmpFNameValue() {
+        	return pro.getProperty("strEditFName");
+        }
+        
+        public String getEditEmpLNameValue() {
+        	return pro.getProperty("strEditLName");
+        }
+        
+        public String getEditEmpNumValue() {
+        	return pro.getProperty("strEditEmpNum");
+        }
+        
+        public String getEditEmpSuccessString() {
+        	return pro.getProperty("strEmpInfoUpdated");
+        }
+        
+        public String getEditEmp() {
+        	return pro.getProperty("btnEditEmp");
+        }
+        
+        public String getDeleteEmp() {
+        	return pro.getProperty("btnDeleteEmp");
+        }
+        
+        public String getDeleteConfirmationEmp() {
+        	return pro.getProperty("modalDeletePrompt");
+        }
+        
+        public String getDeleteConfirmationBtnEmp() {
+        	return pro.getProperty("btnDeleteConf");
+        }
+        
+        public String getDeleteEmpMessage() {
+        	return pro.getProperty("lblDeleteEmp");
+        }
+        
+        /**   Ship Management  */
+        public String getOrganizationButtonId() {
+        	return pro.getProperty("btnOrganizationId");
+        }
+        
+        public String getShipButtonId() {
+        	return pro.getProperty("btnShipsId");
+        }
+        
+        public String getAddShipButtonId() {
+        	return pro.getProperty("btnAddShipId");
+        }
+        
+        public String getShipNameTxtId() {
+        	return pro.getProperty("txtShipNameId");
+        }
+        
+        public String getEmailTxtId() {
+        	return pro.getProperty("txtEmailId");
+        }
+        
+        public String getFNameTxtId() {
+        	return pro.getProperty("txtFNameId");
+        }
+        
+        public String getLNameTxtId() {
+        	return pro.getProperty("txtLNameId");
+        }
+        
+        public String getIMOTxtId() {
+        	return pro.getProperty("txtIMOId");
+        }
+        
+        public String getDivisionDropDownId() {
+        	return pro.getProperty("txtDivisionDropDownId");
+        }
+        
+        public String getShipNameTxtInput() {
+        	return pro.getProperty("inputShipName");
+        }
+        
+        public String getEmailTxtInput() {
+        	return pro.getProperty("inputEmail");
+        }
+        
+        public String getFNameTxtInput() {
+        	return pro.getProperty("inputFName");
+        }
+        
+        public String getLNameTxtInput() {
+        	return pro.getProperty("inputLName");
+        }
+        
+        public String getIMOTxtInput() {
+        	return pro.getProperty("inputIMO");
+        }
+        
+        public String getDivisionDropDownInput() {
+        	return pro.getProperty("inputDivision");
+        }
+        
+        public String getSaveAddShipId() {
+        	return pro.getProperty("btnSaveShipId");
+        }
+        
+        public String getShipsURL() {
+        	return pro.getProperty("urlShips");
+        }
+        
+        public String getAddShipSuccessMsg() {
+        	return pro.getProperty("txtSuccessAddShipMsg");
+        }
+        
+        public String getAddShipSuccessMsgActual() {
+        	return pro.getProperty("txtSuccessAddShipActualPath");
+        }
+        
+        public String getRequiredFieldMsgActual() {
+        	return pro.getProperty("txtFieldIsRequiredMsg");
+        }
+        
+        public String getShipRequiredMsg() {
+        	return pro.getProperty("txtRequiredShipId");
+        }
+        
+        public String getEmailRequiredMsgId() {
+        	return pro.getProperty("txtRequiredEmailId");
+        }
+        
+        public String getFNameRequiredMsgId() {
+        	return pro.getProperty("txtRequiredFNameId");
+        }
+        
+        public String getLNameRequiredMsgId() {
+        	return pro.getProperty("txtRequiredLNameId");
+        }
+        
+        public String getIMORequiredMsgId() {
+        	return pro.getProperty("txtRequiredIMOId");
+        }
+        
+        public String getFNameInvalidMsg() {
+        	return pro.getProperty("txtInvalidFName");
+        }
+        
+        public String getLNameInvalidMsg() {
+        	return pro.getProperty("txtInvalidLName");
+        }
+        
+        public String getEmailInvalidMsg() {
+        	return pro.getProperty("txtInvalidEmail");
+        }
+        
+        public String getbtnEditPath() {
+        	return pro.getProperty("btnEditPath");
+        }
+        
+        public String getbtnEditShipName() {
+        	return pro.getProperty("inputEditShipName");
+        }
+        
+        public String getbtnEditShipEmail() {
+        	return pro.getProperty("inputEditShipEmail");
+        }
+        
+        public String getbtnEditShipFName() {
+        	return pro.getProperty("inputEditShipFName");
+        }
+        
+        public String getbtnEditShipLName() {
+        	return pro.getProperty("inputEditShipLName");
+        }
+        
+        public String getbtnEditShipIMO() {
+        	return pro.getProperty("inputEditShipIMO");
+        }
+        
+        public String getbtnEditShipDivision() {
+        	return pro.getProperty("inputEditShipDivision");
+        }
+        
+        public String getSuccessEditShipMsg() {
+        	return pro.getProperty("txtSuccessEditShip");
+        }
+        
+        public String getBtnDeleteShipWithEmpPath() {
+        	return pro.getProperty("btnDeleteWithEmpPath");
+        }
+        
+        public String getBtnDeleteShipWithoutEmpPath() {
+        	return pro.getProperty("btnDeleteWithoutEmpPath");
+        }
+        
+        public String getBtnCloseDeleteShipWithEmp() {
+        	return pro.getProperty("btnCloseDeleteShipWithEmp");
+        }
+        
+        public String getBtnCloseDeleteShipWithoutEmp() {
+        	return pro.getProperty("btnCloseDeleteShipWithoutEmp");
+        }
+        
+        public String getBtnCancelAddShip() {
+        	return pro.getProperty("btnCancelAddShip");
+        }
+        
+        public String getLblShipsHeader() {
+        	return pro.getProperty("labelShipsHeader");
+        }
+        
+        public String getShowEntriesShips() {
+        	return pro.getProperty("showEntriesShips");
+        }
+        
+        public String getSearchFieldShips() {
+        	return pro.getProperty("searchfieldShip");
+        }
+        
+        public String getTableShips() {
+        	return pro.getProperty("tableShips");
+        }
+        
+        public String getTableInfoShips() {
+        	return pro.getProperty("tableInfoShips");
+        }
+        
+        public String getPaginationShips() {
+        	return pro.getProperty("paginationShips");
+        }
+        
+        public String getEmployeeEmailErrorMessageId() {
+        	return pro.getProperty("emailErrorMessageID");
         }
         
         public static void captureScreenshot(WebDriver driver,String screenshotName)

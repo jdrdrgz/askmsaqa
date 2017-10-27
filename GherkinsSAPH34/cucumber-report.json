@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Manage Employees - Add Employee - Invalid Values",
+        "description": "",
+        "id": "add-employee;manage-employees---add-employee---invalid-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4787011546,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH34.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7827136483,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH34.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1165406000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH34.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1100165238,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH34.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4129524052,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH34.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126917192,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Employees dropdown",
+            "match": {
+              "location": "TestAskMsaSAPH34.click_Employees_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1673646943,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Employees",
+            "match": {
+              "location": "TestAskMsaSAPH34.click_Employees()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100831492,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Add Employee button",
+            "match": {
+              "location": "TestAskMsaSAPH34.click_Add_Employee_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2772061873,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Supply fields with invalid values",
+            "match": {
+              "location": "TestAskMsaSAPH34.supply_fields_with_invalid_values()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131607487,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Save",
+            "match": {
+              "location": "TestAskMsaSAPH34.click_Save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18389,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that an error message is displayed",
+            "match": {
+              "location": "TestAskMsaSAPH34.verify_that_an_error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19244,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH34.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Employee",
+    "description": "",
+    "id": "add-employee",
+    "keyword": "Feature",
+    "uri": "AddEmployeeInvalidValues.feature"
+  }
+]

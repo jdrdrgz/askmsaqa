@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="45.729264">
+<testcase classname="Add Ship" name="Manage Employees - Add Ship - Blank Values" time="45.729264">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Organization dropdown............................................passed
+Then Click Ships............................................................passed
+Then Click Add Ship button..................................................passed
+Then Click Save.............................................................passed
+Then Verify that error messages are displayed...............................passed
+Then Verify that Ship is not added in the table.............................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

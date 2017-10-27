@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Manage Employees - Add Ship - Blank Values",
+        "description": "",
+        "id": "add-ship;manage-employees---add-ship---blank-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5787820201,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21327582078,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1171536140,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1066895280,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9768923037,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1115498925,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Organization dropdown",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.click_Organization_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2980574707,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Ships",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.click_Ships()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1086120441,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Add Ship button",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.click_Add_Ship_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1086297054,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Save",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.click_Save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226804467,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that error messages are displayed",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.verify_that_error_messages_are_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18816,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that Ship is not added in the table",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.verify_that_Ship_is_not_added_in_the_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111193075,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH37_Sprint09.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Ship",
+    "description": "",
+    "id": "add-ship",
+    "keyword": "Feature",
+    "uri": "AddShipBlankValues.feature"
+  }
+]

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
         features="GherkinsCancelEmp",
-        glue={"stepDefinitionAskMsaAddMultEmp"},
+        glue={"stepDefinitionAskMsaCancelEmp"},
         plugin = {"pretty", "html:GherkinsCancelEmp/cucumber-html-report","json:GherkinsCancelEmp/cucumber-report.json","junit:GherkinsCancelEmp/cucumber.xml"}
         )
 

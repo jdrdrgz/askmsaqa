@@ -30,7 +30,7 @@ txtUsername=txtUsername
 txtPassword=txtPassword
 
 //login credentials
-username:jar@shipadmin.com
+username:john.doe@shipadmin.com
 password:test
 
 
@@ -122,6 +122,7 @@ strRequiredField:This field is required.
 strNameFormatErr:Dash (-) is the only accepted special character.
 strEmailFormatErr:Please enter a valid email address.
 strPhoneFormatErr:Please enter a valid phone number.
+strEmpInfoUpdated:Employee information updated!
 
 
 //button values
@@ -134,6 +135,7 @@ btnEditCancelChanges:cancel-profile
 btnAddEmp:btnAddEmployee
 btnAddEmpSave:btnModalSave
 btnAddEmpCancel:btnModalclose
+
 
 //input Values
 inputFName:Judy
@@ -167,10 +169,84 @@ addEmpCity:iptCityState
 addEmpCountry:iptCountry
 addEmpPhone:iptPhone
 addEmpActive:iptActive
-addBlankFNameErr:test
-addBlankLNameErr:test
-addBlankEmpNumErr:test
-addBlankShipErr:test
+addBlankFNameErr:errorLabel_iptFirstName
+addBlankLNameErr:errorLabel_iptSurname
+addBlankEmpNumErr:errorLabel_iptEmpNum
+addBlankShipErr:errorLabel_ddlShip
 
 //Edit Employee Value
-	
+strEditFName:Nico
+strEditLName:Callao
+strEditEmpNum:2003111207
+btnEditEmp://*[@id="lnkEdit_446"]/span
+
+//delete Employee
+btnDeleteEmp://*[@id="lnkDelete_42"]/span
+modalDeletePrompt:modalDeleteConfirm
+btnDeleteConf:btnModalDeleteConfirm
+lblDeleteEmp:Employee removed!
+
+//Ship Management
+btnOrganizationId:nav-org
+btnShipsId:nav-ships
+btnAddShipId:btnAddShip
+btnSaveShipId:btnModalSaveShip
+btnCloseDeleteShipWithEmp:btnModalDeleteCancel
+btnCloseDeleteShipWithoutEmp:btnModalDeleteConfirm
+btnCancelAddShip:btnModalClose
+
+txtShipNameId:txtShipName
+txtEmailId:txtEmail
+txtFNameId:txtFirstName
+txtLNameId:txtLastName
+txtIMOId:txtIMO
+txtDivisionDropDownId:select2-selDivision-container
+
+txtSuccessAddShipMsg:Success! You added a ship.
+txtFieldIsRequiredMsg:This field is required.
+txtInvalidFName:First Name is invalid
+txtInvalidLNameShip:Last Name is invalid
+txtInvalidEmailShip:Email is invalid
+txtSuccessEditShip:Success! You updated a ship.
+
+
+txtSuccessAddShipActualPath:strPrompt
+txtRequiredShipId://*[@id="formShips"]/div[1]/div/label
+txtRequiredEmailId://*[@id="formShips"]/div[2]/div/label
+txtRequiredFNameId://*[@id="formShips"]/div[3]/div/label
+txtRequiredLNameId://*[@id="formShips"]/div[4]/div/label
+txtRequiredIMOId://*[@id="formShips"]/div[5]/div/label
+btnEditPath://*[@id="lnkEdit_11"]/span
+btnDeleteWithEmpPath://*[@id="lnkDelete_11"]/span
+btnDeleteWithoutEmpPath://*[@id="lnkDelete_10"]/span
+labelShipsHeader:/html/body/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/h2
+
+
+inputShipName:Disney Fantasy
+inputEmail:jar@shipadmin.com
+inputFName:Judy
+inputLName:Rodriguez
+inputIMO:1234567890
+inputDivision:London Office
+
+inputEditShipName:Disney AskMSa
+inputEditShipEmail:jar@shipadmin.com
+inputEditShipFName:Judy Ann
+inputEditShipLName:Rodriguez
+inputEditShipIMO:123456789
+inputEditShipDivision:Orlando Office
+
+
+urlShips:http://dev-ask-msa.com/vip-admin/index.php/ships/
+
+showEntriesShips:tblShips_length
+searchfieldShip:tblShips_filter
+tableShips:tblShips
+tableInfoShips:tblShips_info
+paginationShips:tblShips_paginate
+
+
+
+
+
+

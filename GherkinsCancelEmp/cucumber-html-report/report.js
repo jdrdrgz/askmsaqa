@@ -75,77 +75,87 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.run_Browser()"
+  "location": "TestCancelEmp.run_Browser()"
 });
 formatter.result({
-  "duration": 4026906330,
+  "duration": 4756185946,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.browser_is_up_load_ASK_MSA_VIP_login_page()"
+  "location": "TestCancelEmp.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 2712657466,
+  "duration": 7019402201,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.enter_Username()"
+  "location": "TestCancelEmp.enter_Username()"
 });
 formatter.result({
-  "duration": 1155553304,
+  "duration": 1165369651,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.enter_Password()"
+  "location": "TestCancelEmp.enter_Password()"
 });
 formatter.result({
-  "duration": 1093675886,
+  "duration": 1065932675,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.click_Login_button()"
+  "location": "TestCancelEmp.click_Login_button()"
 });
 formatter.result({
-  "duration": 1666663673,
+  "duration": 2644507079,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.click_Employees_dropdown()"
+  "location": "TestCancelEmp.click_Employees_dropdown()"
 });
 formatter.result({
-  "duration": 83075683,
+  "duration": 122070811,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.click_Employees()"
+  "location": "TestCancelEmp.click_Employees()"
 });
 formatter.result({
-  "duration": 1428382353,
+  "duration": 2252079372,
   "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.click_Add_Employee_button()"
+  "location": "TestCancelEmp.click_Add_Employee_button()"
 });
 formatter.result({
-  "duration": 24803,
+  "duration": 90081191,
   "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TestCancelEmp.supply_fields_with_valid_values()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "duration": 4134457242,
+  "status": "passed"
 });
 formatter.match({
-  "location": "TestAskMsaAddMultEmp.close_Browser()"
+  "location": "TestCancelEmp.click_Cancel()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89130132,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TestCancelEmp.verify_that_user_is_redirected_to_Employees_Screen()"
+});
+formatter.result({
+  "duration": 7428866,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TestCancelEmp.close_Browser()"
+});
+formatter.result({
+  "duration": 90858631,
+  "status": "passed"
 });
 });

@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Manage Employees - Delete Employee",
+        "description": "",
+        "id": "delete-employee;manage-employees---delete-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4075072078,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH22.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2211841111,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH22.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1158292730,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH22.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1099476747,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH22.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1729135503,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH22.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86169191,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Employees dropdown",
+            "match": {
+              "location": "TestAskMsaSAPH22.click_Employees_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1098305029,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Employees",
+            "match": {
+              "location": "TestAskMsaSAPH22.click_Employees()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91893078,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Delete button",
+            "match": {
+              "location": "TestAskMsaSAPH22.click_Delete_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24622762,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that a confirmation before deleting employee is displayed",
+            "match": {
+              "location": "TestAskMsaSAPH22.verify_that_a_confirmation_before_deleting_employee_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2936084905,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Delete button on the confirmation dialog box",
+            "match": {
+              "location": "TestAskMsaSAPH22.click_Delete_button_on_the_confirmation_dialog_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21647282,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that user is redirected to Employees Screen",
+            "match": {
+              "location": "TestAskMsaSAPH22.verify_that_user_is_redirected_to_Employees_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44544111,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that employee deleted message is displayed",
+            "match": {
+              "location": "TestAskMsaSAPH22.verify_that_employee_deleted_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153128616,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH22.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Employee",
+    "description": "",
+    "id": "delete-employee",
+    "keyword": "Feature",
+    "uri": "DeleteEmployee.feature"
+  }
+]

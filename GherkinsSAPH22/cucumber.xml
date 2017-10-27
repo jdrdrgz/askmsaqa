@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.730213">
+<testcase classname="Delete Employee" name="Manage Employees - Delete Employee" time="14.730213">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Employees dropdown...............................................passed
+Then Click Employees........................................................passed
+Then Click Delete button....................................................passed
+Then Verify that a confirmation before deleting employee is displayed.......passed
+Then Click Delete button on the confirmation dialog box.....................passed
+Then Verify that user is redirected to Employees Screen.....................passed
+Then Verify that employee deleted message is displayed......................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

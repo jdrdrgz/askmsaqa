@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="79.749375">
+<testcase classname="Ship Management" name="Manage Employees - Edit Ship" time="79.749375">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Organization dropdown............................................passed
+Then Click Ships............................................................passed
+Then Click Edit button......................................................passed
+Then Change fields with valid values........................................passed
+Then Click Save.............................................................passed
+Then Verify that Ship was updated successfully message is displayed.........passed
+Then Verify that user is redirected to Ships Screen.........................passed
+Then Verify that Ship is updated in the table...............................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
