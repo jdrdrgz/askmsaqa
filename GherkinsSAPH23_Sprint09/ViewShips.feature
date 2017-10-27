@@ -1,6 +1,6 @@
-Feature: VIP Booking
+Feature: Ship Management
 
-Scenario: VIP Booking - View Booking Page
+Scenario: Ship Management - View Ships
 Given Run Browser
 When Browser is up, load ASK MSA VIP login page
 Then Enter Username

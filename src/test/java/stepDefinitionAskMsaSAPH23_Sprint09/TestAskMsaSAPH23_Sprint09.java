@@ -72,7 +72,7 @@ public class TestAskMsaSAPH23_Sprint09 {
 	
 	@Then("^Verify that Ships header is displayed$")
 	public void verify_that_Ships_header_is_displayed() throws Throwable {
-		Boolean isPresent = driver.findElements(By.xpath(config.getLblShipsHeader())).size()!= 0;
+		isPresent = driver.findElements(By.xpath(config.getLblShipsHeader())).size()!= 0;
 		Assert.assertTrue("Error: Ships Header is Missing.",isPresent);
 		
 	}

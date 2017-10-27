@@ -522,7 +522,7 @@ public class ConfigReader {
         }
         
         public String generateInvalidName(int length) {
-        	return RandomStringUtils.randomAlphanumeric(length);
+        	return RandomStringUtils.randomNumeric(length);
         }
         
         public String generateInvalidPhone(int length) {
@@ -941,6 +941,33 @@ public class ConfigReader {
         public String getEmployeeEmailErrorMessageId() {
         	return pro.getProperty("emailErrorMessageID");
         }
+        
+        public String getEmployeeHeader() {
+        	return pro.getProperty("employeeLabel");
+        }
+        
+        public String getInvalidPhoneEmployeeMessageID() {
+        	return pro.getProperty("phoneErrorMessageID");
+        }
+        
+        //datatable components for Employees
+        public String getShowEntriesEmployee() {
+        	return pro.getProperty("showEntriesEmployee");
+        }
+        
+        public String getSearchFilterEmployee() {
+        	return pro.getProperty("searchFilterEmployee");
+        }
+        
+        public String getPaginationEmployees() {
+        	return pro.getProperty("paginationEmployees");
+        }
+        
+        public String getEntriesInfoEmployee() {
+        	return pro.getProperty("entriesInfoEmployee");
+        }
+        
+        
         
         public static void captureScreenshot(WebDriver driver,String screenshotName)
         {

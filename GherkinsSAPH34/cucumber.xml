@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.814346">
-<testcase classname="Add Employee" name="Manage Employees - Add Employee - Invalid Values" time="23.814346">
-<system-out><![CDATA[Given Run Browser...........................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.269284">
+<testcase classname="Add Employee" name="Manage Employees - Add Employee - Invalid Values" time="21.269284">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Email is invalid[.]&gt; but was:&lt;Email is invalid[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitionAskMsaSAPH34.TestAskMsaSAPH34.verify_that_an_error_message_is_displayed(TestAskMsaSAPH34.java:112)&#13;&#10;&#9;at ✽.Then Verify that an error message is displayed(AddEmployeeInvalidValues.feature:14)&#13;&#10;"><![CDATA[Given Run Browser...........................................................passed
 When Browser is up, load ASK MSA VIP login page.............................passed
 Then Enter Username.........................................................passed
 Then Enter Password.........................................................passed
@@ -10,8 +10,15 @@ Then Click Employees........................................................pass
 Then Click Add Employee button..............................................passed
 Then Supply fields with invalid values......................................passed
 Then Click Save.............................................................passed
-Then Verify that an error message is displayed..............................passed
-Then Close Browser..........................................................passed
-]]></system-out>
+Then Verify that an error message is displayed..............................failed
+Then Close Browser..........................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Email is invalid[.]> but was:<Email is invalid[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitionAskMsaSAPH34.TestAskMsaSAPH34.verify_that_an_error_message_is_displayed(TestAskMsaSAPH34.java:112)
+	at ✽.Then Verify that an error message is displayed(AddEmployeeInvalidValues.feature:14)
+]]></failure>
 </testcase>
 </testsuite>

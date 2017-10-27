@@ -25,6 +25,7 @@ EmployeesUrl=http://dev-ask-msa.com/vip-admin/index.php/employees/
 strViewProfileURL:http://dev-ask-msa.com/vip-admin/index.php/profile
 
 
+
 //field id
 txtUsername=txtUsername
 txtPassword=txtPassword
@@ -174,6 +175,8 @@ addBlankLNameErr:errorLabel_iptSurname
 addBlankEmpNumErr:errorLabel_iptEmpNum
 addBlankShipErr:errorLabel_ddlShip
 emailErrorMessageID:errorLabel_iptEmail
+phoneErrorMessageID:errorLabel_iptPhone
+
 
 //Edit Employee Value
 strEditFName:Nico
@@ -205,9 +208,9 @@ txtDivisionDropDownId:select2-selDivision-container
 
 txtSuccessAddShipMsg:Success! You added a ship.
 txtFieldIsRequiredMsg:This field is required.
-txtInvalidFName:First Name is invalid
-txtInvalidLName:Last Name is invalid
-txtInvalidEmail:Email is invalid
+txtInvalidFName:First Name is invalid.
+txtInvalidLName:Last Name is invalid.
+txtInvalidEmail:Email is invalid.
 txtSuccessEditShip:Success! You updated a ship.
 
 
@@ -246,6 +249,16 @@ tableShips:tblShips
 tableInfoShips:tblShips_info
 paginationShips:tblShips_paginate
 
+
+//xpaths
+employeeLabel:/html/body/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/h2
+
+
+//data table components
+showEntriesEmployee:tblEmployee_length
+searchFilterEmployee:tblEmployee_filter
+paginationEmployees:tblEmployee_paginate
+entriesInfoEmployee:tblEmployee_info
 
 
 

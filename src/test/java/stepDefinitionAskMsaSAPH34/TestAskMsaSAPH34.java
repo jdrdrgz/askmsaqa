@@ -103,18 +103,14 @@ public class TestAskMsaSAPH34 {
 		String expectedInvalidPhoneMessage = config.getPhoneInvalidText();
 		
 		String actualFNameErr = driver.findElement(By.id(config.getBlankFNameEmp())).getText();
-	    String actualLNameErr = driver.findElement(By.id(config.getBlankLNameEmp())).getText();
-	    String actualEmailErr = driver.findElement(By.id(config.getEmployeeEmailErrorMessageId())).getText();
-	   //phone String actualEmailErr = driver.findElement(By.id(config.getEmployeeEmailErrorMessageId())).getText();
+		String actualLNameErr = driver.findElement(By.id(config.getBlankLNameEmp())).getText();
+	   	String actualEmailErr = driver.findElement(By.id(config.getEmployeeEmailErrorMessageId())).getText();
+	   	String actualPhoneErr = driver.findElement(By.id(config.getInvalidPhoneEmployeeMessageID())).getText();
 	    
-	    String actualEmailRequiredMessage = driver.findElement(By.xpath(config.getEmailRequiredMsgId())).getText();
-	    String actualFNameRequiredMessage = driver.findElement(By.xpath(config.getFNameRequiredMsgId())).getText();
-	    String actualLNameRequiredMessage = driver.findElement(By.xpath(config.getLNameRequiredMsgId())).getText();
-	    
-	    Assert.assertEquals(expectedInvalidFNameMessage, actualFNameErr);
-	    Assert.assertEquals(expectedInvalidLNameMessage, actualLNameErr);
-	    Assert.assertEquals(expectedInvalidEmailMessage, actualEmailErr);
-	   // Assert.assertEquals(expectedInvalidPhoneMessage, actualEmailErr);
+	   Assert.assertEquals(expectedInvalidFNameMessage, actualFNameErr);
+	   Assert.assertEquals(expectedInvalidLNameMessage, actualLNameErr);
+	   	Assert.assertEquals(expectedInvalidEmailMessage, actualEmailErr);
+	   	Assert.assertEquals(expectedInvalidPhoneMessage, actualPhoneErr);
 	    
 	}
 

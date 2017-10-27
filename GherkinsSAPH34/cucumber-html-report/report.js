@@ -78,84 +78,84 @@ formatter.match({
   "location": "TestAskMsaSAPH34.run_Browser()"
 });
 formatter.result({
-  "duration": 4787011546,
+  "duration": 4658360295,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 7827136483,
+  "duration": 3296871940,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.enter_Username()"
 });
 formatter.result({
-  "duration": 1165406000,
+  "duration": 1197675294,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.enter_Password()"
 });
 formatter.result({
-  "duration": 1100165238,
+  "duration": 1098917828,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.click_Login_button()"
 });
 formatter.result({
-  "duration": 4129524052,
+  "duration": 3052181662,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.click_Employees_dropdown()"
 });
 formatter.result({
-  "duration": 126917192,
+  "duration": 86008400,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.click_Employees()"
 });
 formatter.result({
-  "duration": 1673646943,
+  "duration": 955796713,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.click_Add_Employee_button()"
 });
 formatter.result({
-  "duration": 100831492,
+  "duration": 96565412,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.supply_fields_with_invalid_values()"
 });
 formatter.result({
-  "duration": 2772061873,
+  "duration": 6343801824,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.click_Save()"
 });
 formatter.result({
-  "duration": 131607487,
+  "duration": 292129902,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.verify_that_an_error_message_is_displayed()"
 });
 formatter.result({
-  "duration": 18389,
-  "status": "passed"
+  "duration": 190974690,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003cEmail is invalid[.]\u003e but was:\u003cEmail is invalid[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitionAskMsaSAPH34.TestAskMsaSAPH34.verify_that_an_error_message_is_displayed(TestAskMsaSAPH34.java:112)\r\n\tat ✽.Then Verify that an error message is displayed(AddEmployeeInvalidValues.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH34.close_Browser()"
 });
 formatter.result({
-  "duration": 19244,
-  "status": "passed"
+  "status": "skipped"
 });
 });
