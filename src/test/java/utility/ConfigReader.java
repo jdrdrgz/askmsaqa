@@ -923,7 +923,7 @@ public class ConfigReader {
         }
         
         public String getSearchFieldShips() {
-        	return pro.getProperty("searchfieldShip");
+        	return pro.getProperty("searchFilterShip");
         }
         
         public String getTableShips() {
@@ -931,7 +931,7 @@ public class ConfigReader {
         }
         
         public String getTableInfoShips() {
-        	return pro.getProperty("tableInfoShips");
+        	return pro.getProperty("entriesInfoShips");
         }
         
         public String getPaginationShips() {
@@ -967,7 +967,19 @@ public class ConfigReader {
         	return pro.getProperty("entriesInfoEmployee");
         }
         
+        //Retrieve IDs of VIP navigation menu
+        public String getCourseBookingsNavDD() {
+        	return pro.getProperty("navCourseBookingsDD");
+        }
         
+        public String getCourseBookingsNav() {
+        	return pro.getProperty("navCourseBookings");
+        }
+        
+        //Retrieve URLs of vip pages
+        public String getUrlCourseBookings() {
+        	return pro.getProperty("urlCourseBookings");
+        }
         
         public static void captureScreenshot(WebDriver driver,String screenshotName)
         {

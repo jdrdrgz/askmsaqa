@@ -158,196 +158,196 @@ formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.run_Browser()"
 });
 formatter.result({
-  "duration": 8214051554,
+  "duration": 9044001016,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 3855613086,
+  "duration": 3167983781,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.enter_Username()"
 });
 formatter.result({
-  "duration": 1150760804,
+  "duration": 1165325178,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.enter_Password()"
 });
 formatter.result({
-  "duration": 1080829748,
+  "duration": 1106979164,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.click_Login_button()"
 });
 formatter.result({
-  "duration": 4013916507,
+  "duration": 2404546865,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.click_Employees_dropdown()"
 });
 formatter.result({
-  "duration": 97803413,
+  "duration": 84689148,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.click_Employees()"
 });
 formatter.result({
-  "duration": 870224072,
+  "duration": 1335131964,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Employees_Page_is_displayed()"
 });
 formatter.result({
-  "duration": 11878829,
+  "duration": 10427866,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Employees_header_is_displayed()"
 });
 formatter.result({
-  "duration": 266594140,
+  "duration": 67190776,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Add_Ship_button_is_displayed()"
 });
 formatter.result({
-  "duration": 27203537,
+  "duration": 47927556,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Active_tab_is_present()"
 });
 formatter.result({
-  "duration": 38625652,
+  "duration": 21240602,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Inactive_tab_is_present()"
 });
 formatter.result({
-  "duration": 21457412,
+  "duration": 18925389,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Show_Entries_option_is_displayed()"
 });
 formatter.result({
-  "duration": 19407760,
+  "duration": 18694466,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Search_field_is_displayed()"
 });
 formatter.result({
-  "duration": 19769112,
+  "duration": 18708579,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Active_Employees_table_is_displayed()"
 });
 formatter.result({
-  "duration": 19263220,
+  "duration": 19002791,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Name_Column_is_present()"
 });
 formatter.result({
-  "duration": 168059472,
+  "duration": 161935320,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Employee_Number_Column_is_present()"
 });
 formatter.result({
-  "duration": 130268991,
+  "duration": 134377274,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Ship_Column_is_present()"
 });
 formatter.result({
-  "duration": 135221425,
+  "duration": 125659092,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Email_Column_is_present()"
 });
 formatter.result({
-  "duration": 133228221,
+  "duration": 133161510,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Date_of_Birth_Column_is_present()"
 });
 formatter.result({
-  "duration": 137738053,
+  "duration": 129375662,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Action_Column_is_present()"
 });
 formatter.result({
-  "duration": 132892955,
+  "duration": 133638750,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Bookings_button_is_present()"
 });
 formatter.result({
-  "duration": 135889389,
+  "duration": 133694769,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Edit_button_is_present()"
 });
 formatter.result({
-  "duration": 127392294,
+  "duration": 120544584,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Delete_Column_is_present()"
 });
 formatter.result({
-  "duration": 138808850,
+  "duration": 130955344,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_pagination_is_present()"
 });
 formatter.result({
-  "duration": 20870698,
+  "duration": 20123193,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_the_Number_of_entries_shown_label_is_present()"
 });
 formatter.result({
-  "duration": 18286503,
+  "duration": 22520512,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.verify_that_Inactive_Employees_table_is_present()"
 });
 formatter.result({
-  "duration": 253479020,
+  "duration": 254931267,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH19_Sprint19.close_Browser()"
 });
 formatter.result({
-  "duration": 17961,
+  "duration": 27796,
   "status": "passed"
 });
 });

@@ -223,7 +223,7 @@ txtRequiredIMOId://*[@id="formShips"]/div[5]/div/label
 btnEditPath://*[@id="lnkEdit_11"]/span
 btnDeleteWithEmpPath://*[@id="lnkDelete_11"]/span
 btnDeleteWithoutEmpPath://*[@id="lnkDelete_10"]/span
-labelShipsHeader:/html/body/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/h2
+
 
 
 inputShipName:Disney Fantasy
@@ -240,25 +240,33 @@ inputEditShipLName:Rodriguez
 inputEditShipIMO:123456789
 inputEditShipDivision:Orlando Office
 
-
+//url of vip pages
 urlShips:http://dev-ask-msa.com/vip-admin/index.php/ships/
+urlCourseBookings:http://dev-ask-msa.com/vip-admin/index.php/course_bookings/
 
-showEntriesShips:tblShips_length
-searchfieldShip:tblShips_filter
+
+//tables names
 tableShips:tblShips
-tableInfoShips:tblShips_info
-paginationShips:tblShips_paginate
 
 
-//xpaths
+//xpaths for pages header
 employeeLabel:/html/body/div/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/h2
+labelShipsHeader:/html/body/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/h2
 
 
 //data table components
 showEntriesEmployee:tblEmployee_length
+showEntriesShips:tblShips_length
 searchFilterEmployee:tblEmployee_filter
+searchFilterShip:tblShips_filter
 paginationEmployees:tblEmployee_paginate
+paginationShips:tblShips_paginate
 entriesInfoEmployee:tblEmployee_info
+entriesInfoShips:tblShips_info
+
+//IDs of VIP navigation menu
+navCourseBookingsDD:nav-c-b
+navCourseBookings:nav-course-bookings
 
 
 

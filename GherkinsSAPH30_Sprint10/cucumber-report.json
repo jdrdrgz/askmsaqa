@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "VIP Booking - View Booking Page",
+        "description": "",
+        "id": "vip-booking;vip-booking---view-booking-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4018108607,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6247193649,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1165013859,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1084294442,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3963323079,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89902012,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Course Bookings dropdown",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.click_Course_Bookings_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1197868584,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Course Bookings",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.click_Course_Bookings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32072,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that Course Bookings Page is displayed",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Course_Bookings_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30789,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that Course Bookings header is displayed",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Course_Bookings_header_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26941,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that Book a Course button is displayed",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Book_a_Course_button_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17106,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that Show Entries option is displayed",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Show_Entries_option_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25231,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that Search field is displayed",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Search_field_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32928,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that Bookings table is displayed",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Bookings_table_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34638,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify that Date Booked Column is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Date_Booked_Column_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18816,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify that Course Name Column is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Course_Name_Column_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22237,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify that Location Column is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Location_Column_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18388,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify that Schedule Column is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Schedule_Column_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19671,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify that Status Column is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Status_Column_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21382,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify that Actions Column is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_Actions_Column_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21809,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify that pagination is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_pagination_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31645,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify that the Number of entries shown label is present",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.verify_that_the_Number_of_entries_shown_label_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26514,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestASkMsaSAPH30_Sprint10.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "VIP Booking",
+    "description": "",
+    "id": "vip-booking",
+    "keyword": "Feature",
+    "uri": "ViewBookingPage.feature"
+  }
+]
