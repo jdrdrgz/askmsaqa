@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Edit Booking",
+        "description": "",
+        "id": "regular-booking-via-vip;edit-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3983376168,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4728066027,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1169676495,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1077890483,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7989050011,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1415514123,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Course Bookings",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.click_Course_Bookings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3903436891,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Edit button of a Created Booking",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.click_Edit_button_of_a_Created_Booking()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1186853258,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Set Status of Booking to Cancel",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.set_Status_of_Booking_to_Cancel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2094851290,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Remove button of an employee",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.click_Remove_button_of_an_employee()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 201772114,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that employee was removed in the list",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.verify_that_employee_was_removed_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225061900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Add Employee",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.add_Employee()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81764844,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Update Booking button",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.click_Update_Booking_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5868844,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that user is redirected to Booking page",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.verify_that_user_is_redirected_to_Booking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22510210,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify that successful updated message is displayed",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.verify_that_successful_updated_message_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3074208130,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Success! You updated a course booking.]\u003e but was:\u003c[Booking updated!]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitionAskMsaSAPH32_Sprint11.TestAskMsaSAPH32_Sprint11.verify_that_successful_updated_message_is_correct(TestAskMsaSAPH32_Sprint11.java:140)\r\n\tat ✽.Then Verify that successful updated message is correct(EditBookingDetails.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Verify that successful updated message is correct",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.verify_that_successful_updated_message_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Verify that booking details has been updated",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.verify_that_booking_details_has_been_updated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify that Edit button is not available for a Closed Booking",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.verify_that_Edit_button_is_not_available_for_a_Closed_Booking()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH32_Sprint11.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Regular Booking via VIP",
+    "description": "",
+    "id": "regular-booking-via-vip",
+    "keyword": "Feature",
+    "uri": "EditBookingDetails.feature"
+  }
+]

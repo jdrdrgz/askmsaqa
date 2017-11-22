@@ -1,0 +1,250 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add Booking - Cancel Add",
+        "description": "",
+        "id": "regular-booking-via-vip;add-booking---cancel-add",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5409059770,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2826712418,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1135709240,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1068294014,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2223079581,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 835351481,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Course Bookings",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.click_Course_Bookings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2362906509,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Book a Course button",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.click_Book_a_Course_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1488371775,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select A Course",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.select_A_Course()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037157550,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that Location Drop Down is Enabled",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.verify_that_Location_Drop_Down_is_Enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234303692,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select a Location",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.select_a_Location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1032900454,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that Course Dates Drop Down is Enabled",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.verify_that_Course_Dates_Drop_Down_is_Enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1092003328,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select a Course Date",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.select_a_Course_Date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17106,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that On-Board check box is NOT ticked",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.verify_that_On_Board_check_box_is_NOT_ticked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1196754429,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select an Employee with registered email address and click Add to List button",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.select_an_Employee_with_registered_email_address_and_click_Add_to_List_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77076762,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Tick Email Booking Details checkbox if available",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.tick_Email_Booking_Details_checkbox_if_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69530731,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click Cancel button",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.click_Cancel_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6208819,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify that user is redirected to Booking page",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.verify_that_user_is_redirected_to_Booking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16678,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify that Booking is not added in the table",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.verify_that_Booking_is_not_added_in_the_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10691,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH70_Sprint11.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Regular Booking via VIP",
+    "description": "",
+    "id": "regular-booking-via-vip",
+    "keyword": "Feature",
+    "uri": "CancelAddBooking.feature"
+  }
+]

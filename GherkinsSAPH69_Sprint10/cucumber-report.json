@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add Booking - Blank Values",
+        "description": "",
+        "id": "regular-booking-via-vip;add-booking---blank-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5150819988,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run Browser",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.run_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4985598580,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is up, load ASK MSA VIP login page",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.browser_is_up_load_ASK_MSA_VIP_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1144176698,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1089817187,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4373585922,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 834265433,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Course Bookings",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.click_Course_Bookings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1953133913,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Book a Course button",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.click_Book_a_Course_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1120035921,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Add Booking button",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.click_Add_Booking_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47058949,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that an error message is displayed in Course",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Course()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 475032180,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select a Course and click Add Booking button",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.select_a_Course_and_click_Add_Booking_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46908422,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that an error message is displayed in Location",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295684748,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select a Location and click Add Booking button",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.select_a_Location_and_click_Add_Booking_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43294062,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that an error message is displayed in Course Dates",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Course_Dates()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134159379,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select a Course Date and click Add Booking button",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.select_a_Course_Date_and_click_Add_Booking_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17106,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify that an error message is displayed in Employee",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Employee()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2310229853,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close Browser",
+            "match": {
+              "location": "TestAskMsaSAPH69_Sprint10.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Regular Booking via VIP",
+    "description": "",
+    "id": "regular-booking-via-vip",
+    "keyword": "Feature",
+    "uri": "AddBooking_BlankValues.feature"
+  }
+]

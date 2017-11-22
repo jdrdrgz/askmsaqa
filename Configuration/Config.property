@@ -124,6 +124,7 @@ strNameFormatErr:Dash (-) is the only accepted special character.
 strEmailFormatErr:Please enter a valid email address.
 strPhoneFormatErr:Please enter a valid phone number.
 strEmpInfoUpdated:Employee information updated!
+strEditBookingDetails:Success! You updated a course booking.
 
 
 //button values
@@ -135,7 +136,7 @@ btnEditSaveChanges:save-profile
 btnEditCancelChanges:cancel-profile
 btnAddEmp:btnAddEmployee
 btnAddEmpSave:btnModalSave
-btnAddEmpCancel:btnModalclose
+
 
 
 //input Values
@@ -212,6 +213,7 @@ txtInvalidFName:First Name is invalid.
 txtInvalidLName:Last Name is invalid.
 txtInvalidEmail:Email is invalid.
 txtSuccessEditShip:Success! You updated a ship.
+txtSuccessAddBooking:Success! You added a course booking.
 
 
 txtSuccessAddShipActualPath:strPrompt
@@ -240,6 +242,14 @@ inputEditShipLName:Rodriguez
 inputEditShipIMO:123456789
 inputEditShipDivision:Orlando Office
 
+inputCourse:Ship
+inputLocation:Norway
+inputSchedule:11/10
+inputEmployeeBooking:Floyd
+inputEmployeeBookingOther:Oliver
+inputEmployeeBookingWithoutEmail:ccc
+inputCancelBookingStatus:Canceled
+
 //url of vip pages
 urlShips:http://dev-ask-msa.com/vip-admin/index.php/ships/
 urlCourseBookings:http://dev-ask-msa.com/vip-admin/index.php/course_bookings/
@@ -247,6 +257,8 @@ urlCourseBookings:http://dev-ask-msa.com/vip-admin/index.php/course_bookings/
 
 //tables names
 tableShips:tblShips
+tableBookings:tblCourseBookings	
+tableBookingEmployees:tblEmployees
 
 
 //xpaths for pages header
@@ -257,16 +269,71 @@ labelShipsHeader:/html/body/div[1]/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]
 //data table components
 showEntriesEmployee:tblEmployee_length
 showEntriesShips:tblShips_length
+showEntriesBookings:tblCourseBookings_length
+showEntriesBookingEmployees:tblEmployees_length
 searchFilterEmployee:tblEmployee_filter
 searchFilterShip:tblShips_filter
+searchFilterBookings:tblCourseBookings_filter
 paginationEmployees:tblEmployee_paginate
 paginationShips:tblShips_paginate
+paginationBookings:tblCourseBookings_paginate
+paginationBookingEmployees:tblEmployees_paginate
 entriesInfoEmployee:tblEmployee_info
 entriesInfoShips:tblShips_info
+entriesInfoBookings:tblCourseBookings_info
+entriesInfoBookingEmployees:tblEmployees_info
 
 //IDs of VIP navigation menu
 navCourseBookingsDD:nav-c-b
 navCourseBookings:nav-course-bookings
+
+//label header IDs
+courseBookingHeaderLblId:lblCourseBookings
+modalBookingHeaderLblId:modalBookingLabel
+
+//label header text
+courseBookingHeaderLblText:Course Bookings
+modalBookingHeaderLblText:Book a Course
+
+//button IDs
+bookCourseButtonId:btnBookCourse
+bookCourseAddToListId:btnAddEmployeeToCourse
+addBookingModalId:btnModalSave
+btnCancelModal:btnModalclose
+btnUpdateBookingId:btnModalEditSave
+
+//modal pages ID
+bookCourseModal:modalBookCourse
+
+//drop down IDs
+bookingCourseDdl:select2-ddlCourse-container
+bookingLocationDdl:select2-ddlLocation-container
+bookingScheduleDdl:select2-ddlCourseDates-container
+bookingEmployeesDdl:select2-ddlEmployeeList-container
+bookingStatusDdl:select2-ddlBookingStatus-container
+
+//text field IDs
+bookingCommentFldId:txtAreaComment
+
+//required fields error message ids
+actualBookingCourseBlankMsgId:errorLabel_ddlCourse
+actualBookingCourseLocationBlankMsgId:errorLabel_ddlLocation
+actualBookingCourseScheduleBlankMsgId:errorLabel_ddlCourseDates
+
+//alert message ids
+alertMessageId:strPrompt
+
+//tickbox id
+tickBookingEmp:cbxEmail_1
+tickBookingEmpOther:cbxEmail_3
+
+//edit booking
+editBookingId://*[@id="lnkEdit_REF201711151778"]/span
+editBookingEmpRemove://*[@id="lnkDelete_4_cm@shipadmin.com"]/span/i
+
+strPrompt:strPrompt
+
+
 
 
 

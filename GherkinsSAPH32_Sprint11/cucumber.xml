@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.159901">
+<testcase classname="Regular Booking via VIP" name="Edit Booking" time="32.159901">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Success! You updated a course booking.]&gt; but was:&lt;[Booking updated!]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitionAskMsaSAPH32_Sprint11.TestAskMsaSAPH32_Sprint11.verify_that_successful_updated_message_is_correct(TestAskMsaSAPH32_Sprint11.java:140)&#13;&#10;&#9;at ✽.Then Verify that successful updated message is correct(EditBookingDetails.feature:18)&#13;&#10;"><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Course Bookings..................................................passed
+Then Click Edit button of a Created Booking.................................passed
+Then Set Status of Booking to Cancel........................................passed
+Then Click Remove button of an employee.....................................passed
+Then Verify that employee was removed in the list...........................passed
+Then Add Employee...........................................................passed
+Then Click Update Booking button............................................passed
+Then Verify that user is redirected to Booking page.........................passed
+Then Verify that successful updated message is displayed....................passed
+Then Verify that successful updated message is correct......................failed
+Then Verify that booking details has been updated...........................skipped
+Then Verify that Edit button is not available for a Closed Booking..........skipped
+Then Close Browser..........................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Success! You updated a course booking.]> but was:<[Booking updated!]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitionAskMsaSAPH32_Sprint11.TestAskMsaSAPH32_Sprint11.verify_that_successful_updated_message_is_correct(TestAskMsaSAPH32_Sprint11.java:140)
+	at ✽.Then Verify that successful updated message is correct(EditBookingDetails.feature:18)
+]]></failure>
+</testcase>
+</testsuite>

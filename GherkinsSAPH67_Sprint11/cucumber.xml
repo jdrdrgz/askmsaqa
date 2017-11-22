@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.068864">
+<testcase classname="Regular Booking via VIP" name="Add Booking - Valid Values with Employee Email" time="58.068864">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Success! You added a course booking.]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitionAskMsaSAPH67_Sprint11.TestAskMsaSAPH67_Sprint11.verify_that_successful_booking_message_is_correct(TestAskMsaSAPH67_Sprint11.java:165)&#13;&#10;&#9;at ✽.Then Verify that successful booking message is correct(AddBookingValidEmployeeWithEmail.feature:21)&#13;&#10;"><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Course Bookings..................................................passed
+Then Click Book a Course button.............................................passed
+Then Select A Course........................................................passed
+Then Verify that Location Drop Down is Enabled..............................passed
+Then Select a Location......................................................passed
+Then Verify that Course Dates Drop Down is Enabled..........................passed
+Then Select a Course Date...................................................passed
+Then Verify that On-Board check box is NOT ticked...........................passed
+Then Select an Employee with registered email address and click Add to List button.passed
+Then Tick Email Booking Details checkbox if available.......................passed
+Then Click Add Booking button...............................................passed
+Then Verify that successful booking message is displayed....................passed
+Then Verify that successful booking message is correct......................failed
+Then Verify that user is redirected to Booking page.........................skipped
+Then Verify that Booking is added in the table..............................skipped
+Then Close Browser..........................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Success! You added a course booking.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitionAskMsaSAPH67_Sprint11.TestAskMsaSAPH67_Sprint11.verify_that_successful_booking_message_is_correct(TestAskMsaSAPH67_Sprint11.java:165)
+	at ✽.Then Verify that successful booking message is correct(AddBookingValidEmployeeWithEmail.feature:21)
+]]></failure>
+</testcase>
+</testsuite>

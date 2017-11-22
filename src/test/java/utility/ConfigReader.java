@@ -749,6 +749,10 @@ public class ConfigReader {
         	return pro.getProperty("lblDeleteEmp");
         }
         
+        public String getStrEditBookingDetails() {
+        	return pro.getProperty("strEditBookingDetails");
+        }
+        
         /**   Ship Management  */
         public String getOrganizationButtonId() {
         	return pro.getProperty("btnOrganizationId");
@@ -926,10 +930,6 @@ public class ConfigReader {
         	return pro.getProperty("searchFilterShip");
         }
         
-        public String getTableShips() {
-        	return pro.getProperty("tableShips");
-        }
-        
         public String getTableInfoShips() {
         	return pro.getProperty("entriesInfoShips");
         }
@@ -950,7 +950,20 @@ public class ConfigReader {
         	return pro.getProperty("phoneErrorMessageID");
         }
         
-        //datatable components for Employees
+        //retrieve table IDs
+        public String getTableShips() {
+        	return pro.getProperty("tableShips");
+        }
+        
+        public String getTableBookings() {
+        	return pro.getProperty("tableBookings");
+        }
+        
+        public String getTableBookingEmployees() {
+        	return pro.getProperty("tableBookingEmployees");
+        }
+        
+        //datatable components
         public String getShowEntriesEmployee() {
         	return pro.getProperty("showEntriesEmployee");
         }
@@ -967,6 +980,34 @@ public class ConfigReader {
         	return pro.getProperty("entriesInfoEmployee");
         }
         
+        public String getShowEntriesBookings() {
+        	return pro.getProperty("showEntriesBookings");
+        }
+        
+        public String getSearchFilterBookings() {
+        	return pro.getProperty("searchFilterBookings");
+        }
+        
+        public String getPaginationBookings() {
+        	return pro.getProperty("paginationBookings");
+        }
+        
+        public String getEntriesInfoBookingEmployees() {
+        	return pro.getProperty("showEntriesBookingEmployees");
+        }
+        
+        public String getShowEntriesBookingEmployees() {
+        	return pro.getProperty("showEntriesBookings");
+        }
+        
+        public String getPaginationBookingEmployees() {
+        	return pro.getProperty("paginationBookingEmployees");
+        }
+        
+        public String getEntriesInfoBookings() {
+        	return pro.getProperty("entriesInfoBookingEmployees");
+        }
+        
         //Retrieve IDs of VIP navigation menu
         public String getCourseBookingsNavDD() {
         	return pro.getProperty("navCourseBookingsDD");
@@ -980,6 +1021,152 @@ public class ConfigReader {
         public String getUrlCourseBookings() {
         	return pro.getProperty("urlCourseBookings");
         }
+        
+        //retrieve label header IDs
+        public String getCourseBookingHeaderLblId() {
+        	return pro.getProperty("courseBookingHeaderLblId");
+        }
+        
+        public String getModalBookingHeaderLblId() {
+        	return pro.getProperty("modalBookingHeaderLblId");
+        }
+        
+        //retrieve label header text
+        public String getCourseBookingHeaderLblText() {
+        	return pro.getProperty("courseBookingHeaderLblText");
+        }
+        
+        public String getModalBookingHeaderLblText() {
+        	return pro.getProperty("modalBookingHeaderLblText");
+        }
+        
+        //retrieve button ids
+        public String getBookCourseButtonID() {
+        	return pro.getProperty("bookCourseButtonId");
+        }
+        
+        public String getBookCourseAddToListID() {
+        	return pro.getProperty("bookCourseAddToListId");
+        }
+        
+        public String getAddBookingModalId() {
+        	return pro.getProperty("addBookingModalId");
+        }
+        
+        public String getCancelModalId() {
+        	return pro.getProperty("btnCancelModal");
+        }
+        
+        public String getBtnUpdateBookingId() {
+        	return pro.getProperty("btnUpdateBookingId");
+        }
+        
+        //retrieve modal ids
+        public String getBookCourseModal() {
+        	return pro.getProperty("bookCourseModal");
+        }
+        
+        //retrieve drop down IDs
+        public String getBookingCourseDdl() {
+        	return pro.getProperty("bookingCourseDdl");
+        }
+        
+        public String getBookingLocationDdl() {
+        	return pro.getProperty("bookingLocationDdl");
+        }
+        
+        public String getBookingScheduleDdl() {
+        	return pro.getProperty("bookingScheduleDdl");
+        }
+        
+        public String getBookingStatusDdl() {
+        	return pro.getProperty("bookingStatusDdl");
+        }
+        public String getBookingEmployeesDdl() {
+        	return pro.getProperty("bookingEmployeesDdl");
+        }
+        
+        //retrieve text field IDs
+        public String getBookingCommentFldId() {
+        	return pro.getProperty("bookingCommentFldId");
+        }
+        
+        //retrieve course input for booking
+        public String getInputCourse() {
+        	return pro.getProperty("inputCourse");
+        }
+        
+        public String getInputLocation() {
+        	return pro.getProperty("inputLocation");
+        }
+        
+        public String getInputSchedule() {
+        	return pro.getProperty("inputSchedule");
+        }
+        
+        public String getInputEmployeeBooking() {
+        	return pro.getProperty("inputEmployeeBooking");
+        }
+        
+        public String getInputEmployeeBookingOther() {
+        	return pro.getProperty("inputEmployeeBookingOther");
+        }
+        
+        public String getInputEmployeeBookingWithoutEmail() {
+        	return pro.getProperty("inputEmployeeBookingWithoutEmail");
+        }
+        
+        public String getInputCancelBookingStatus() {
+        	return pro.getProperty("inputCancelBookingStatus");
+        }
+        
+        
+        //required fields error message ids
+        public String getActualBookingCourseBlankMsgId() {
+        	return pro.getProperty("actualBookingCourseBlankMsgId");
+        }
+        
+        public String getActualBookingLocationBlankMsgId() {
+        	return pro.getProperty("actualBookingCourseLocationBlankMsgId");
+        }
+        
+        public String getActualBookingScheduleBlankMsgId() {
+        	return pro.getProperty("actualBookingCourseScheduleBlankMsgId");
+        }
+        
+        //alert message ids
+        public String getAlertMessageId() {
+        	return pro.getProperty("alertMessageId");
+        }
+        
+        //expected messages
+        public String getTxtSuccessAddBooking() {
+        	return pro.getProperty("txtSuccessAddBooking");
+        }
+        
+        //retrieve tickbox ids
+        public String getTickBookingEmp() {
+        	return pro.getProperty("tickBookingEmp");
+        }
+        
+        public String getTickBookingEmpOther() {
+        	return pro.getProperty("tickBookingEmpOther");
+        }
+        
+        //retrieve edit booking id
+        public String getEditBookingId() {
+        	return pro.getProperty("editBookingId");
+        }
+        
+        public String geteditBookingEmpRemove() {
+        	return pro.getProperty("editBookingEmpRemove");
+        }
+        
+        
+        public String getStrPrompt() {
+        	return pro.getProperty("strPrompt");
+        }
+        
         
         public static void captureScreenshot(WebDriver driver,String screenshotName)
         {

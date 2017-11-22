@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4085829125,
+              "duration": 89433417435,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 7474395932,
+              "duration": 15427094871,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1149720091,
+              "duration": 2032843978,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 1089664165,
+              "duration": 1070646796,
               "status": "passed"
             },
             "line": 7,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 2563338247,
+              "duration": 4545359960,
               "status": "passed"
             },
             "line": 8,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 84592829,
+              "duration": 94644743,
               "status": "passed"
             },
             "line": 9,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 1585914437,
+              "duration": 1709576856,
               "status": "passed"
             },
             "line": 10,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 19244,
+              "duration": 28224,
               "status": "passed"
             },
             "line": 11,
@@ -108,8 +108,9 @@
           },
           {
             "result": {
-              "duration": 1123894839587,
-              "status": "passed"
+              "duration": 9774985567,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element \u003cbutton type\u003d\"button\" id\u003d\"btnModalSave\" class\u003d\"btn btn-primary\"\u003e...\u003c/button\u003e is not clickable at point (980, 703). Other element would receive the click: \u003cform id\u003d\"formEmployee\" class\u003d\"form-horizontal form-label-left\" novalidate\u003d\"novalidate\"\u003e...\u003c/form\u003e\n  (Session info: chrome\u003d61.0.3163.100)\n  (Driver info: chromedriver\u003d2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform\u003dWindows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 58 milliseconds\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-3EKF22U\u0027, ip: \u0027192.168.22.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir\u003dC:\\Users\\JUDYAN~1\\AppData\\Local\\Temp\\scoped_dir12240_30387}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d61.0.3163.100, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 6d75008151162e115bb1ecb791af04a5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)\r\n\tat stepDefinitionAskMsaAddMultEmp.TestAskMsaAddMultEmp.supply_all_required_fields_with_valid_values_multiple_times_and_click_Save(TestAskMsaAddMultEmp.java:88)\r\n\tat ✽.Then Supply all required fields with valid values multiple times and click Save(AddEmpMult.feature:12)\r\n",
+              "status": "failed"
             },
             "line": 12,
             "name": "Supply all required fields with valid values multiple times and click Save",
@@ -120,8 +121,7 @@
           },
           {
             "result": {
-              "duration": 450564201,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "Close Browser",

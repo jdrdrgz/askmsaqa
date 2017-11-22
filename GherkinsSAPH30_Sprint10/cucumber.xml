@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.766084">
-<testcase classname="VIP Booking" name="VIP Booking - View Booking Page" time="17.766084">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.579021">
+<testcase classname="VIP Booking" name="VIP Booking - View Booking Page" time="13.579021">
 <system-out><![CDATA[Given Run Browser...........................................................passed
 When Browser is up, load ASK MSA VIP login page.............................passed
 Then Enter Username.........................................................passed
@@ -9,6 +9,7 @@ Then Click Course Bookings dropdown.........................................pass
 Then Click Course Bookings..................................................passed
 Then Verify that Course Bookings Page is displayed..........................passed
 Then Verify that Course Bookings header is displayed........................passed
+Then Verify that Course Bookings header text is correct.....................passed
 Then Verify that Book a Course button is displayed..........................passed
 Then Verify that Show Entries option is displayed...........................passed
 Then Verify that Search field is displayed..................................passed
@@ -21,6 +22,8 @@ Then Verify that Status Column is present...................................pass
 Then Verify that Actions Column is present..................................passed
 Then Verify that pagination is present......................................passed
 Then Verify that the Number of entries shown label is present...............passed
+Then Verify that Edit button is present.....................................passed
+Then Verify that Details Button is present..................................passed
 Then Close Browser..........................................................passed
 ]]></system-out>
 </testcase>

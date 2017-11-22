@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.095465">
+<testcase classname="Regular Booking via VIP" name="Add Booking - Cancel Add" time="23.095465">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Course Bookings..................................................passed
+Then Click Book a Course button.............................................passed
+Then Select A Course........................................................passed
+Then Verify that Location Drop Down is Enabled..............................passed
+Then Select a Location......................................................passed
+Then Verify that Course Dates Drop Down is Enabled..........................passed
+Then Select a Course Date...................................................passed
+Then Verify that On-Board check box is NOT ticked...........................passed
+Then Select an Employee with registered email address and click Add to List button.passed
+Then Tick Email Booking Details checkbox if available.......................passed
+Then Click Cancel button....................................................passed
+Then Verify that user is redirected to Booking page.........................passed
+Then Verify that Booking is not added in the table..........................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
