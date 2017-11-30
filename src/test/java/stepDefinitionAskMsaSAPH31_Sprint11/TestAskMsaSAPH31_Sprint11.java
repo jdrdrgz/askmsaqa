@@ -171,7 +171,7 @@ public class TestAskMsaSAPH31_Sprint11 {
 	
 	@Then("^Verify that successful booking message is correct$")
 	public void verify_that_successful_booking_message_is_correct() throws Throwable {
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		String expectedMessage = config.getTxtSuccessAddBooking();
 		String actualMessage = driver.findElement(By.id("strPrompt")).getText();
 	    

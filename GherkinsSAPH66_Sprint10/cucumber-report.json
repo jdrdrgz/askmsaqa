@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4039689178,
+              "duration": 4143027341,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1550478822,
+              "duration": 9052820504,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1174960636,
+              "duration": 1278030985,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 1094934414,
+              "duration": 1161704686,
               "status": "passed"
             },
             "line": 7,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 1648360920,
+              "duration": 78216706123,
               "status": "passed"
             },
             "line": 8,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 942962121,
+              "duration": 3719079919,
               "status": "passed"
             },
             "line": 9,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 490395759,
+              "duration": 7585690167,
               "status": "passed"
             },
             "line": 10,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 43820554,
+              "duration": 24878467,
               "status": "passed"
             },
             "line": 11,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 21303037,
+              "duration": 19646792,
               "status": "passed"
             },
             "line": 12,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 20818527,
+              "duration": 20442619,
               "status": "passed"
             },
             "line": 13,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 20673131,
+              "duration": 1047513565,
               "status": "passed"
             },
             "line": 14,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 32693079,
+              "duration": 51462337,
               "status": "passed"
             },
             "line": 15,
@@ -156,8 +156,9 @@
           },
           {
             "result": {
-              "duration": 31655638,
-              "status": "passed"
+              "duration": 31760809,
+              "error_message": "java.lang.AssertionError: Error: Course Date Drop Down is Missing.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat stepDefinitionAskMsaSAPH66_Sprint10.TestAskMsaSAPH66_Sprint10.verify_that_Course_Dates_Drop_Down_is_displayed(TestAskMsaSAPH66_Sprint10.java:118)\r\n\tat ✽.Then Verify that Course Dates Drop Down is displayed(AddBookingPage.feature:16)\r\n",
+              "status": "failed"
             },
             "line": 16,
             "name": "Verify that Course Dates Drop Down is displayed",
@@ -168,8 +169,7 @@
           },
           {
             "result": {
-              "duration": 35033523,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Verify that Course Dates Drop Down is disabled",
@@ -180,8 +180,7 @@
           },
           {
             "result": {
-              "duration": 20957936,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Verify that Comments is displayed",
@@ -192,8 +191,7 @@
           },
           {
             "result": {
-              "duration": 22665,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "Verify that On-Board checkbox is displayed",
@@ -204,8 +202,7 @@
           },
           {
             "result": {
-              "duration": 22635545,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "Verify that Employees drop down is displayed",
@@ -216,8 +213,7 @@
           },
           {
             "result": {
-              "duration": 19697269,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "Verify that Add to List button is present",
@@ -228,8 +224,7 @@
           },
           {
             "result": {
-              "duration": 20223687,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "Verify that Employee Participants table is displayed",
@@ -240,8 +235,7 @@
           },
           {
             "result": {
-              "duration": 7342483,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "Verify that Add Booking button is displayed",
@@ -252,8 +246,7 @@
           },
           {
             "result": {
-              "duration": 9254864,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "Verify that Cancel button is displayed",
@@ -264,8 +257,7 @@
           },
           {
             "result": {
-              "duration": 136021957,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "Verify that Name Column is present",
@@ -276,8 +268,7 @@
           },
           {
             "result": {
-              "duration": 135636230,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "Verify that Email Booking Detail is present",
@@ -288,8 +279,7 @@
           },
           {
             "result": {
-              "duration": 115891921,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "Verify that Actions Column is present",
@@ -300,8 +290,7 @@
           },
           {
             "result": {
-              "duration": 19417169,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "Verify that Show Entries option is displayed",
@@ -312,8 +301,7 @@
           },
           {
             "result": {
-              "duration": 23065318,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 29,
             "name": "Verify that pagination is present",
@@ -324,8 +312,7 @@
           },
           {
             "result": {
-              "duration": 18540518,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 30,
             "name": "Verify that the Number of entries shown label is present",
@@ -336,8 +323,7 @@
           },
           {
             "result": {
-              "duration": 259075044,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "Close Browser",

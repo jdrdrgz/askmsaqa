@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.955562">
-<testcase classname="Regular Booking via VIP" name="Add Booking - View Add Booking Page" time="11.955562">
-<system-out><![CDATA[Given Run Browser...........................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="106.352764">
+<testcase classname="Regular Booking via VIP" name="Add Booking - View Add Booking Page" time="106.352764">
+<failure message="java.lang.AssertionError: Error: Course Date Drop Down is Missing.&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at stepDefinitionAskMsaSAPH66_Sprint10.TestAskMsaSAPH66_Sprint10.verify_that_Course_Dates_Drop_Down_is_displayed(TestAskMsaSAPH66_Sprint10.java:118)&#13;&#10;&#9;at ✽.Then Verify that Course Dates Drop Down is displayed(AddBookingPage.feature:16)&#13;&#10;"><![CDATA[Given Run Browser...........................................................passed
 When Browser is up, load ASK MSA VIP login page.............................passed
 Then Enter Username.........................................................passed
 Then Enter Password.........................................................passed
@@ -12,22 +12,29 @@ Then Verify that Book a Course header is displayed..........................pass
 Then Verify that Course Drop Down is displayed..............................passed
 Then Verify that Location Drop Down is displayed............................passed
 Then Verify that Location Drop Down is disabled.............................passed
-Then Verify that Course Dates Drop Down is displayed........................passed
-Then Verify that Course Dates Drop Down is disabled.........................passed
-Then Verify that Comments is displayed......................................passed
-Then Verify that On-Board checkbox is displayed.............................passed
-Then Verify that Employees drop down is displayed...........................passed
-Then Verify that Add to List button is present..............................passed
-Then Verify that Employee Participants table is displayed...................passed
-Then Verify that Add Booking button is displayed............................passed
-Then Verify that Cancel button is displayed.................................passed
-Then Verify that Name Column is present.....................................passed
-Then Verify that Email Booking Detail is present............................passed
-Then Verify that Actions Column is present..................................passed
-Then Verify that Show Entries option is displayed...........................passed
-Then Verify that pagination is present......................................passed
-Then Verify that the Number of entries shown label is present...............passed
-Then Close Browser..........................................................passed
-]]></system-out>
+Then Verify that Course Dates Drop Down is displayed........................failed
+Then Verify that Course Dates Drop Down is disabled.........................skipped
+Then Verify that Comments is displayed......................................skipped
+Then Verify that On-Board checkbox is displayed.............................skipped
+Then Verify that Employees drop down is displayed...........................skipped
+Then Verify that Add to List button is present..............................skipped
+Then Verify that Employee Participants table is displayed...................skipped
+Then Verify that Add Booking button is displayed............................skipped
+Then Verify that Cancel button is displayed.................................skipped
+Then Verify that Name Column is present.....................................skipped
+Then Verify that Email Booking Detail is present............................skipped
+Then Verify that Actions Column is present..................................skipped
+Then Verify that Show Entries option is displayed...........................skipped
+Then Verify that pagination is present......................................skipped
+Then Verify that the Number of entries shown label is present...............skipped
+Then Close Browser..........................................................skipped
+
+StackTrace:
+java.lang.AssertionError: Error: Course Date Drop Down is Missing.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at stepDefinitionAskMsaSAPH66_Sprint10.TestAskMsaSAPH66_Sprint10.verify_that_Course_Dates_Drop_Down_is_displayed(TestAskMsaSAPH66_Sprint10.java:118)
+	at ✽.Then Verify that Course Dates Drop Down is displayed(AddBookingPage.feature:16)
+]]></failure>
 </testcase>
 </testsuite>

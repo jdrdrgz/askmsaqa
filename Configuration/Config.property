@@ -242,12 +242,12 @@ inputEditShipLName:Rodriguez
 inputEditShipIMO:123456789
 inputEditShipDivision:Orlando Office
 
-inputCourse:Ship
+inputCourse:G11
 inputLocation:Norway
-inputSchedule:11/10
-inputEmployeeBooking:Floyd
-inputEmployeeBookingOther:Oliver
-inputEmployeeBookingWithoutEmail:ccc
+inputSchedule:11/25
+inputEmployeeBooking:asd
+inputEmployeeBookingOther:Judy
+inputEmployeeBookingWithoutEmail:Judy
 inputCancelBookingStatus:Canceled
 
 //url of vip pages
@@ -257,7 +257,7 @@ urlCourseBookings:http://dev-ask-msa.com/vip-admin/index.php/course_bookings/
 
 //tables names
 tableShips:tblShips
-tableBookings:tblCourseBookings	
+tableBookings:tblCourseBookings
 tableBookingEmployees:tblEmployees
 
 
@@ -301,13 +301,14 @@ bookCourseAddToListId:btnAddEmployeeToCourse
 addBookingModalId:btnModalSave
 btnCancelModal:btnModalclose
 btnUpdateBookingId:btnModalEditSave
+btnRegularBookingDetails://*[@id="lnkDetails_REF201711238363"]/span
 
 //modal pages ID
 bookCourseModal:modalBookCourse
 
 //drop down IDs
 bookingCourseDdl:select2-ddlCourse-container
-bookingLocationDdl:select2-ddlLocation-container
+bookingLocationDdl:divSelectLocation
 bookingScheduleDdl:select2-ddlCourseDates-container
 bookingEmployeesDdl:select2-ddlEmployeeList-container
 bookingStatusDdl:select2-ddlBookingStatus-container
@@ -324,17 +325,47 @@ actualBookingCourseScheduleBlankMsgId:errorLabel_ddlCourseDates
 alertMessageId:strPrompt
 
 //tickbox id
-tickBookingEmp:cbxEmail_1
-tickBookingEmpOther:cbxEmail_3
+tickBookingEmp:cbxEmail_34
+tickBookingEmpOther:cbxEmail_28
 
 //edit booking
-editBookingId://*[@id="lnkEdit_REF201711151778"]/span
-editBookingEmpRemove://*[@id="lnkDelete_4_cm@shipadmin.com"]/span/i
+editBookingId://*[@id="lnkEdit_REF20171129268"]/span/i
+editBookingEmpRemove://*[@id="lnkDelete_20_"]/span
 
 strPrompt:strPrompt
 
-
-
+//booking details ids
+lblReferenceId:vRefID
+lblCourse:ctrlCourse
+lblInfoCourse:lblInfoCourseName
+lblOrderedDate:ctrlOrderedDate
+lblInfoOrderedDate:lblOrderedDate
+lblCourseCode:ctrlCourseCode
+lblInfoCourseCode:lblCourseCode
+lblProjectCode:ctrlProjectCode
+lblInfoProjectCode:lblProjectCode
+lblStartDate:ctrlStartDate
+lblInfoStartDate:lblInfoStartDate
+lblEndDate:ctrlEndDate
+lblInfoEndDate:lblInfoEndDate
+lblPrice:ctrlPrice
+lblInfoPrice:lblInfoPrice
+lblLocation:ctrlLocation
+lblInfoLocation:lblInfoLocation
+lblLocDescription:ctrlLocationDescription
+lblInfoLocDescription:lblInfoLocationDesc
+tblCourseBookingDetails_length
+tblCourseBookingDetails_filter
+tblCourseBookingDetails
+tblCourseBookingDetails_info
+tblCourseBookingDetails_paginate
+tblColumnDateBooked:Date Booked
+tblColumnEmployee:Employee
+tblColumnEmployeeNumber:Employee Number
+tblColumnShip:Ship
+tblColumnAction:Actions
+tblButtonBookings:Bookings
+tblButtonCertificate:Certificate
 
 
 

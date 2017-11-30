@@ -158,196 +158,182 @@ formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.run_Browser()"
 });
 formatter.result({
-  "duration": 4039689178,
+  "duration": 4143027341,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 1550478822,
+  "duration": 9052820504,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.enter_Username()"
 });
 formatter.result({
-  "duration": 1174960636,
+  "duration": 1278030985,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.enter_Password()"
 });
 formatter.result({
-  "duration": 1094934414,
+  "duration": 1161704686,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.click_Login_button()"
 });
 formatter.result({
-  "duration": 1648360920,
+  "duration": 78216706123,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.click_Course_Bookings()"
 });
 formatter.result({
-  "duration": 942962121,
+  "duration": 3719079919,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.click_Book_a_Course_button()"
 });
 formatter.result({
-  "duration": 490395759,
+  "duration": 7585690167,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Book_a_Course_module_is_displayed()"
 });
 formatter.result({
-  "duration": 43820554,
+  "duration": 24878467,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Book_a_Course_header_is_displayed()"
 });
 formatter.result({
-  "duration": 21303037,
+  "duration": 19646792,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Course_Drop_Down_is_displayed()"
 });
 formatter.result({
-  "duration": 20818527,
+  "duration": 20442619,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Location_Drop_Down_is_displayed()"
 });
 formatter.result({
-  "duration": 20673131,
+  "duration": 1047513565,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Location_Drop_Down_is_disabled()"
 });
 formatter.result({
-  "duration": 32693079,
+  "duration": 51462337,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Course_Dates_Drop_Down_is_displayed()"
 });
 formatter.result({
-  "duration": 31655638,
-  "status": "passed"
+  "duration": 31760809,
+  "error_message": "java.lang.AssertionError: Error: Course Date Drop Down is Missing.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat stepDefinitionAskMsaSAPH66_Sprint10.TestAskMsaSAPH66_Sprint10.verify_that_Course_Dates_Drop_Down_is_displayed(TestAskMsaSAPH66_Sprint10.java:118)\r\n\tat ✽.Then Verify that Course Dates Drop Down is displayed(AddBookingPage.feature:16)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Course_Dates_Drop_Down_is_disabled()"
 });
 formatter.result({
-  "duration": 35033523,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Comments_is_displayed()"
 });
 formatter.result({
-  "duration": 20957936,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_On_Board_checkbox_is_displayed()"
 });
 formatter.result({
-  "duration": 22665,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Employees_drop_down_is_displayed()"
 });
 formatter.result({
-  "duration": 22635545,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Add_to_List_button_is_present()"
 });
 formatter.result({
-  "duration": 19697269,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Employee_Participants_table_is_displayed()"
 });
 formatter.result({
-  "duration": 20223687,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Add_Booking_button_is_displayed()"
 });
 formatter.result({
-  "duration": 7342483,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Cancel_button_is_displayed()"
 });
 formatter.result({
-  "duration": 9254864,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Name_Column_is_present()"
 });
 formatter.result({
-  "duration": 136021957,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Email_Booking_Detail_is_present()"
 });
 formatter.result({
-  "duration": 135636230,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Actions_Column_is_present()"
 });
 formatter.result({
-  "duration": 115891921,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_Show_Entries_option_is_displayed()"
 });
 formatter.result({
-  "duration": 19417169,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_pagination_is_present()"
 });
 formatter.result({
-  "duration": 23065318,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.verify_that_the_Number_of_entries_shown_label_is_present()"
 });
 formatter.result({
-  "duration": 18540518,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "TestAskMsaSAPH66_Sprint10.close_Browser()"
 });
 formatter.result({
-  "duration": 259075044,
-  "status": "passed"
+  "status": "skipped"
 });
 });

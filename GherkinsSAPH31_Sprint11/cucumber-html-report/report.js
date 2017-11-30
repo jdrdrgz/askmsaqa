@@ -128,154 +128,154 @@ formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.run_Browser()"
 });
 formatter.result({
-  "duration": 7823296201,
+  "duration": 4147266478,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 3588813102,
+  "duration": 1971231774,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.enter_Username()"
 });
 formatter.result({
-  "duration": 1134556650,
+  "duration": 1308979288,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.enter_Password()"
 });
 formatter.result({
-  "duration": 1089589685,
+  "duration": 1182378227,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.click_Login_button()"
 });
 formatter.result({
-  "duration": 2198350617,
+  "duration": 5098600439,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.click_Course_Bookings()"
 });
 formatter.result({
-  "duration": 826006115,
+  "duration": 1008533010,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.click_Book_a_Course_button()"
 });
 formatter.result({
-  "duration": 1951597853,
+  "duration": 2343157085,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.select_A_Course()"
 });
 formatter.result({
-  "duration": 1441479185,
+  "duration": 1511060327,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_Location_Drop_Down_is_Enabled()"
 });
 formatter.result({
-  "duration": 1066811777,
+  "duration": 1096282663,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.select_a_Location()"
 });
 formatter.result({
-  "duration": 1315620603,
+  "duration": 1491133008,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_Course_Dates_Drop_Down_is_Enabled()"
 });
 formatter.result({
-  "duration": 1054748231,
+  "duration": 1089316931,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.select_a_Course_Date()"
 });
 formatter.result({
-  "duration": 1124487588,
+  "duration": 1216637274,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_On_Board_check_box_is_NOT_ticked()"
 });
 formatter.result({
-  "duration": 19243,
+  "duration": 25230,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.select_an_Employee_with_registered_email_address_and_click_Add_to_List_button()"
 });
 formatter.result({
-  "duration": 1215086917,
+  "duration": 1407787986,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.select_another_Employee_with_registered_email_address_and_click_Add_to_List_button()"
 });
 formatter.result({
-  "duration": 1183953046,
+  "duration": 1352890891,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.tick_Email_Booking_Details_checkbox_if_available()"
 });
 formatter.result({
-  "duration": 146860100,
+  "duration": 237247097,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.click_Add_Booking_button()"
 });
 formatter.result({
-  "duration": 81999615,
+  "duration": 85491745,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_user_is_redirected_to_Booking_page()"
 });
 formatter.result({
-  "duration": 13368684,
+  "duration": 6724546,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_successful_booking_message_is_displayed()"
 });
 formatter.result({
-  "duration": 52750753,
+  "duration": 23821355,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_successful_booking_message_is_correct()"
 });
 formatter.result({
-  "duration": 1117997391,
+  "duration": 2082670643,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.verify_that_Booking_is_added_in_the_table()"
 });
 formatter.result({
-  "duration": 16678,
+  "duration": 24803,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH31_Sprint11.close_Browser()"
 });
 formatter.result({
-  "duration": 450755415,
+  "duration": 145932259,
   "status": "passed"
 });
 });

@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5057057073,
+              "duration": 4047259977,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 11958659760,
+              "duration": 4854508203,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1162995286,
+              "duration": 1340476675,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 1093537680,
+              "duration": 1122612091,
               "status": "passed"
             },
             "line": 7,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 22548330346,
+              "duration": 5508589457,
               "status": "passed"
             },
             "line": 8,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 5652116703,
+              "duration": 982281839,
               "status": "passed"
             },
             "line": 9,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 1357903190,
+              "duration": 2089366109,
               "status": "passed"
             },
             "line": 10,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 2009479365,
+              "duration": 1473988304,
               "status": "passed"
             },
             "line": 11,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 1064165635,
+              "duration": 1072563940,
               "status": "passed"
             },
             "line": 12,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 1549562359,
+              "duration": 1349184587,
               "status": "passed"
             },
             "line": 13,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 1057626683,
+              "duration": 1072001174,
               "status": "passed"
             },
             "line": 14,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 1137780699,
+              "duration": 1183982283,
               "status": "passed"
             },
             "line": 15,
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 27369,
+              "duration": 25230,
               "status": "passed"
             },
             "line": 16,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 1194051781,
+              "duration": 1388756560,
               "status": "passed"
             },
             "line": 17,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 74864184,
+              "duration": 89755256,
               "status": "passed"
             },
             "line": 18,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 78708186,
+              "duration": 90705887,
               "status": "passed"
             },
             "line": 19,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 32185450,
+              "duration": 24195963,
               "status": "passed"
             },
             "line": 20,
@@ -216,9 +216,8 @@
           },
           {
             "result": {
-              "duration": 1039812303,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Success! You added a course booking.]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitionAskMsaSAPH67_Sprint11.TestAskMsaSAPH67_Sprint11.verify_that_successful_booking_message_is_correct(TestAskMsaSAPH67_Sprint11.java:165)\r\n\tat ✽.Then Verify that successful booking message is correct(AddBookingValidEmployeeWithEmail.feature:21)\r\n",
-              "status": "failed"
+              "duration": 1083011895,
+              "status": "passed"
             },
             "line": 21,
             "name": "Verify that successful booking message is correct",
@@ -229,7 +228,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 18797082,
+              "status": "passed"
             },
             "line": 22,
             "name": "Verify that user is redirected to Booking page",
@@ -240,7 +240,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 26085,
+              "status": "passed"
             },
             "line": 23,
             "name": "Verify that Booking is added in the table",
@@ -251,7 +252,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 171663428,
+              "status": "passed"
             },
             "line": 24,
             "name": "Close Browser",

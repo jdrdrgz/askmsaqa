@@ -1,4 +1,4 @@
-package stepDefinitionAskMsaSAPH30_Sprint10;
+package stepDefinitionAskMsaSAPH116_Sprint12;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -11,12 +11,13 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import utility.ConfigReader;
 
-public class TestAskMsaSAPH30_Sprint10 {
-	
+public class TestAskMsaSAPH116_Sprint12 {
+
+
 	public static WebDriver driver;
 	static ConfigReader config = new ConfigReader();
 	Boolean isPresent;
-
+	
 	@Given("^Run Browser$")
 	public void run_Browser() throws Throwable {
 		loadDriver(); 
@@ -25,6 +26,7 @@ public class TestAskMsaSAPH30_Sprint10 {
 	
 	@When("^Browser is up, load ASK MSA VIP login page$")
 	public void browser_is_up_load_ASK_MSA_VIP_login_page() throws Throwable {
+		Thread.sleep(1000);
 		driver.get(config.getASKMSAUrl());
 	    
 	}
@@ -63,11 +65,10 @@ public class TestAskMsaSAPH30_Sprint10 {
 	
 	@Then("^Verify that Course Bookings Page is displayed$")
 	public void verify_that_Course_Bookings_Page_is_displayed() throws Throwable {
-		String expectedCourseBookingPage = config.getUrlCourseBookings();
-	    String actualCourseBookingPage = driver.getCurrentUrl();
-	    
-	    Assert.assertEquals(expectedCourseBookingPage, actualCourseBookingPage);
-	    
+			String expectedCourseBookingPage = config.getUrlCourseBookings();
+		    String actualCourseBookingPage = driver.getCurrentUrl();
+		    
+		    Assert.assertEquals(expectedCourseBookingPage, actualCourseBookingPage);
 	}
 	
 	@Then("^Verify that Course Bookings header is displayed$")
@@ -100,6 +101,7 @@ public class TestAskMsaSAPH30_Sprint10 {
 	    
 	}
 	
+	
 	@Then("^Verify that Search field is displayed$")
 	public void verify_that_Search_field_is_displayed() throws Throwable {
 		isPresent = driver.findElements(By.id(config.getSearchFilterBookings())).size()!= 0;
@@ -109,6 +111,7 @@ public class TestAskMsaSAPH30_Sprint10 {
 	
 	@Then("^Verify that Bookings table is displayed$")
 	public void verify_that_Bookings_table_is_displayed() throws Throwable {
+		Thread.sleep(3000);
 		isPresent = driver.findElements(By.id(config.getTableBookings())).size()!= 0;
 		Assert.assertTrue("Error: Bookings table is Missing.",isPresent);
 	    
@@ -140,8 +143,20 @@ public class TestAskMsaSAPH30_Sprint10 {
 	    
 	}
 	
-	@Then("^Verify that Course Name Column is present$")
-	public void verify_that_Course_Name_Column_is_present() throws Throwable {
+	@Then("^Verify that Project Code Column is present$")
+	public void verify_that_Project_Code_Column_is_present() throws Throwable {
+		WebElement body = driver.findElement(By.tagName("body"));
+        String bodyText = body.getText();
+        if (bodyText.contains("Project Code")){
+    	   isPresent = true;
+        }else {
+    	   isPresent = false;
+        }
+        Assert.assertTrue("Error: Project Code Column is missing.",isPresent);
+	}
+	
+	@Then("^Verify that Course Column is present$")
+	public void verify_that_Course_Column_is_present() throws Throwable {
 		WebElement body = driver.findElement(By.tagName("body"));
         String bodyText = body.getText();
         if (bodyText.contains("Course")){
@@ -247,15 +262,14 @@ public class TestAskMsaSAPH30_Sprint10 {
 	
 	@Then("^Close Browser$")
 	public void close_Browser() throws Throwable {
-	    driver.close();
+		driver.close();
 	    
 	}
-	
+
 	public static void loadDriver() {
 		System.setProperty("webdriver.chrome.driver", config.getChromePath());
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 	}
 	
-
 }

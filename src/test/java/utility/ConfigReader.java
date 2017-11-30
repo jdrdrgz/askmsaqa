@@ -1061,6 +1061,10 @@ public class ConfigReader {
         	return pro.getProperty("btnUpdateBookingId");
         }
         
+        public String getBtnRegularBookingDetails() {
+        	return pro.getProperty("btnRegularBookingDetails");
+        }
+        
         //retrieve modal ids
         public String getBookCourseModal() {
         	return pro.getProperty("bookCourseModal");
@@ -1167,6 +1171,48 @@ public class ConfigReader {
         	return pro.getProperty("strPrompt");
         }
         
+        //bookimg details 
+        public String getlblReferenceId() {
+        	return pro.getProperty("lblReferenceId");
+        }
+        
+        public String getlblCourse() {
+        	return pro.getProperty("lblCourse");
+        }
+        
+        public String getlblInfoCourse() {
+        	return pro.getProperty("lblInfoCourse");
+        }
+        
+        public String getlblOrderedDate() {
+        	return pro.getProperty("lblOrderedDate");
+        }
+
+        public String getlblCourseCode() {
+        	return pro.getProperty("lblCourseCode");
+        }
+
+        public String getlblInfoCourseCode() {
+        	return pro.getProperty("lblInfoCourseCode");
+        }
+
+        public String getlblProjectCode() {
+        	return pro.getProperty("lblProjectCode");
+        }
+
+        public String getlblInfoProjectCode() {
+        	return pro.getProperty("lblInfoProjectCode");
+        }
+        
+        public String getlblStartDate() {
+        	return pro.getProperty("lblStartDate");
+        }
+
+        public String getlblInfoStartDate() {
+        	return pro.getProperty("lblInfoStartDate");
+        }
+
+
         
         public static void captureScreenshot(WebDriver driver,String screenshotName)
         {

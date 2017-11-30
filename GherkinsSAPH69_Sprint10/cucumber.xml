@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.003818">
-<testcase classname="Regular Booking via VIP" name="Add Booking - Blank Values" time="24.003818">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.660839">
+<testcase classname="Regular Booking via VIP" name="Add Booking - Blank Values" time="28.660839">
 <system-out><![CDATA[Given Run Browser...........................................................passed
 When Browser is up, load ASK MSA VIP login page.............................passed
 Then Enter Username.........................................................passed

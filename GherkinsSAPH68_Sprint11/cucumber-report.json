@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5087883427,
-              "error_message": "org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer\n  (Session info: chrome\u003d62.0.3202.94)\n  (Driver info: chromedriver\u003d2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform\u003dWindows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.05 seconds\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-3EKF22U\u0027, ip: \u002710.10.5.18\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir\u003dC:\\Users\\JUDYAN~1\\AppData\\Local\\Temp\\scoped_dir10256_5519}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d62.0.3202.94, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 4d75b845038764261be1c133dd72c373\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)\r\n\tat stepDefinitionAskMsaSAPH68_Sprint11.TestAskMsaSAPH68_Sprint11.loadDriver(TestAskMsaSAPH68_Sprint11.java:202)\r\n\tat stepDefinitionAskMsaSAPH68_Sprint11.TestAskMsaSAPH68_Sprint11.run_Browser(TestAskMsaSAPH68_Sprint11.java:24)\r\n\tat ✽.Given Run Browser(AddBookingValidEmployeeWithoutEmail.feature:4)\r\n",
-              "status": "failed"
+              "duration": 4167036000,
+              "status": "passed"
             },
             "line": 4,
             "name": "Run Browser",
@@ -25,7 +24,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11386661153,
+              "status": "passed"
             },
             "line": 5,
             "name": "Browser is up, load ASK MSA VIP login page",
@@ -36,7 +36,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1141165422,
+              "status": "passed"
             },
             "line": 6,
             "name": "Enter Username",
@@ -47,7 +48,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1127591890,
+              "status": "passed"
             },
             "line": 7,
             "name": "Enter Password",
@@ -58,7 +60,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3667079191,
+              "status": "passed"
             },
             "line": 8,
             "name": "Click Login button",
@@ -69,7 +72,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1280321820,
+              "status": "passed"
             },
             "line": 9,
             "name": "Click Course Bookings",
@@ -80,7 +84,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3274633005,
+              "status": "passed"
             },
             "line": 10,
             "name": "Click Book a Course button",
@@ -91,7 +96,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1571803606,
+              "status": "passed"
             },
             "line": 11,
             "name": "Select A Course",
@@ -102,7 +108,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1047970278,
+              "status": "passed"
             },
             "line": 12,
             "name": "Verify that Location Drop Down is Enabled",
@@ -113,7 +120,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1461141748,
+              "status": "passed"
             },
             "line": 13,
             "name": "Select a Location",
@@ -124,7 +132,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1067534108,
+              "status": "passed"
             },
             "line": 14,
             "name": "Verify that Course Dates Drop Down is Enabled",
@@ -135,7 +144,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1092194909,
+              "status": "passed"
             },
             "line": 15,
             "name": "Select a Course Date",
@@ -146,7 +156,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 23947,
+              "status": "passed"
             },
             "line": 16,
             "name": "Verify that On-Board check box is NOT ticked",
@@ -157,7 +168,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1381942211,
+              "status": "passed"
             },
             "line": 17,
             "name": "Select an Employee without registered email address and click Add to List button",
@@ -168,7 +180,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 213540348,
+              "status": "passed"
             },
             "line": 18,
             "name": "Verify that No Email Registered is displayed in the Email Booking Details column if email is not available",
@@ -179,7 +192,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 142379476,
+              "status": "passed"
             },
             "line": 19,
             "name": "Click Add Booking button",
@@ -190,7 +204,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 53887023,
+              "status": "passed"
             },
             "line": 20,
             "name": "Verify that successful booking message is displayed",
@@ -201,7 +216,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2099403536,
+              "status": "passed"
             },
             "line": 21,
             "name": "Verify that successful booking message is correct",
@@ -212,7 +228,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9533246,
+              "status": "passed"
             },
             "line": 22,
             "name": "Verify that user is redirected to Booking page",
@@ -223,7 +240,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 23948,
+              "status": "passed"
             },
             "line": 23,
             "name": "Verify that Booking is added in the table",
@@ -234,7 +252,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 173164852,
+              "status": "passed"
             },
             "line": 24,
             "name": "Close Browser",

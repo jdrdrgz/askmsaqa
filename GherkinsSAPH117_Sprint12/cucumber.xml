@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.013834">
+<testcase classname="Regular Booking Details" name="Regular Booking history details" time="27.013834">
+<system-out><![CDATA[Given Run Browser...........................................................passed
+When Browser is up, load ASK MSA VIP login page.............................passed
+Then Enter Username.........................................................passed
+Then Enter Password.........................................................passed
+Then Click Login button.....................................................passed
+Then Click Course Bookings dropdown.........................................passed
+Then Click Course Bookings..................................................passed
+Then Click Details button of a Regular Booking..............................passed
+Then Verify that Booking Details page is displayed..........................passed
+Then Verify that Reference Number is displayed..............................passed
+Then Verify that Course is displayed........................................passed
+Then Verify that Ordered Date is displayed..................................passed
+Then Verify that Course Code is displayed...................................passed
+Then Verify that Project Code is displayed..................................passed
+Then Verify that Start Date is displayed....................................passed
+Then Verify that End Date is displayed......................................passed
+Then Verify that Unknown is displayed if no date is available...............passed
+Then Verify that Price is displayed.........................................passed
+Then Verify that Price value is not contractual.............................passed
+Then Verify that price is Not available if 0 or null........................passed
+Then Verify that Location is displayed......................................passed
+Then Verify that Location Description is displayed..........................passed
+Then Verify that employees table is present.................................passed
+Then verify that employees table is not empty...............................passed
+Then Verify that Show Entries option is displayed...........................passed
+Then Verify that Search field is displayed..................................passed
+Then Verify that pagination is present......................................passed
+Then Verify that the Number of entries shown label is present...............passed
+Then Verify that Date Booked Column is present..............................passed
+Then Verify that Employee Column is present.................................passed
+Then Verify that Employee Number Column is present..........................passed
+Then Verify that Ship Column is present.....................................passed
+Then Verify that Actions Column is present..................................passed
+Then Verify that Booking button is present..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

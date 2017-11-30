@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.068864">
-<testcase classname="Regular Booking via VIP" name="Add Booking - Valid Values with Employee Email" time="58.068864">
-<failure message="org.junit.ComparisonFailure: expected:&lt;[Success! You added a course booking.]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitionAskMsaSAPH67_Sprint11.TestAskMsaSAPH67_Sprint11.verify_that_successful_booking_message_is_correct(TestAskMsaSAPH67_Sprint11.java:165)&#13;&#10;&#9;at ✽.Then Verify that successful booking message is correct(AddBookingValidEmployeeWithEmail.feature:21)&#13;&#10;"><![CDATA[Given Run Browser...........................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.963752">
+<testcase classname="Regular Booking via VIP" name="Add Booking - Valid Values with Employee Email" time="28.963752">
+<system-out><![CDATA[Given Run Browser...........................................................passed
 When Browser is up, load ASK MSA VIP login page.............................passed
 Then Enter Username.........................................................passed
 Then Enter Password.........................................................passed
@@ -17,17 +17,10 @@ Then Select an Employee with registered email address and click Add to List butt
 Then Tick Email Booking Details checkbox if available.......................passed
 Then Click Add Booking button...............................................passed
 Then Verify that successful booking message is displayed....................passed
-Then Verify that successful booking message is correct......................failed
-Then Verify that user is redirected to Booking page.........................skipped
-Then Verify that Booking is added in the table..............................skipped
-Then Close Browser..........................................................skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[Success! You added a course booking.]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitionAskMsaSAPH67_Sprint11.TestAskMsaSAPH67_Sprint11.verify_that_successful_booking_message_is_correct(TestAskMsaSAPH67_Sprint11.java:165)
-	at ✽.Then Verify that successful booking message is correct(AddBookingValidEmployeeWithEmail.feature:21)
-]]></failure>
+Then Verify that successful booking message is correct......................passed
+Then Verify that user is redirected to Booking page.........................passed
+Then Verify that Booking is added in the table..............................passed
+Then Close Browser..........................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

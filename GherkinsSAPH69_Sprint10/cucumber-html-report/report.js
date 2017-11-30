@@ -98,112 +98,112 @@ formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.run_Browser()"
 });
 formatter.result({
-  "duration": 5150819988,
+  "duration": 4179909496,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 4985598580,
+  "duration": 3815999757,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.enter_Username()"
 });
 formatter.result({
-  "duration": 1144176698,
+  "duration": 1299800552,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.enter_Password()"
 });
 formatter.result({
-  "duration": 1089817187,
+  "duration": 1175720393,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.click_Login_button()"
 });
 formatter.result({
-  "duration": 4373585922,
+  "duration": 5731035713,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.click_Course_Bookings()"
 });
 formatter.result({
-  "duration": 834265433,
+  "duration": 1457549623,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.click_Book_a_Course_button()"
 });
 formatter.result({
-  "duration": 1953133913,
+  "duration": 4325746821,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.click_Add_Booking_button()"
 });
 formatter.result({
-  "duration": 1120035921,
+  "duration": 1181934343,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Course()"
 });
 formatter.result({
-  "duration": 47058949,
+  "duration": 80894251,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.select_a_Course_and_click_Add_Booking_button()"
 });
 formatter.result({
-  "duration": 475032180,
+  "duration": 4009226205,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Location()"
 });
 formatter.result({
-  "duration": 46908422,
+  "duration": 44376869,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.select_a_Location_and_click_Add_Booking_button()"
 });
 formatter.result({
-  "duration": 295684748,
+  "duration": 616850150,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Course_Dates()"
 });
 formatter.result({
-  "duration": 43294062,
+  "duration": 55180188,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.select_a_Course_Date_and_click_Add_Booking_button()"
 });
 formatter.result({
-  "duration": 134159379,
+  "duration": 233745202,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.verify_that_an_error_message_is_displayed_in_Employee()"
 });
 formatter.result({
-  "duration": 17106,
+  "duration": 45757,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH69_Sprint10.close_Browser()"
 });
 formatter.result({
-  "duration": 2310229853,
+  "duration": 452823839,
   "status": "passed"
 });
 });

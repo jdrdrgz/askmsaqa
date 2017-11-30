@@ -143,175 +143,175 @@ formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.run_Browser()"
 });
 formatter.result({
-  "duration": 4547812094,
+  "duration": 4821207057,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.browser_is_up_load_ASK_MSA_VIP_login_page()"
 });
 formatter.result({
-  "duration": 2797950861,
+  "duration": 72135393646,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.enter_Username()"
 });
 formatter.result({
-  "duration": 1166961307,
+  "duration": 1379519664,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.enter_Password()"
 });
 formatter.result({
-  "duration": 1106365937,
+  "duration": 1169938352,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.click_Login_button()"
 });
 formatter.result({
-  "duration": 1704124876,
+  "duration": 13541068264,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.click_Course_Bookings_dropdown()"
 });
 formatter.result({
-  "duration": 89717701,
+  "duration": 2183894189,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.click_Course_Bookings()"
 });
 formatter.result({
-  "duration": 1227424110,
+  "duration": 2099318864,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Course_Bookings_Page_is_displayed()"
 });
 formatter.result({
-  "duration": 8621537,
+  "duration": 13174550,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Course_Bookings_header_is_displayed()"
 });
 formatter.result({
-  "duration": 25422866,
+  "duration": 37226399,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Course_Bookings_header_text_is_correct()"
 });
 formatter.result({
-  "duration": 40139905,
+  "duration": 101747826,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Book_a_Course_button_is_displayed()"
 });
 formatter.result({
-  "duration": 18678216,
+  "duration": 29621783,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Show_Entries_option_is_displayed()"
 });
 formatter.result({
-  "duration": 18299332,
+  "duration": 29379314,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Search_field_is_displayed()"
 });
 formatter.result({
-  "duration": 18329694,
+  "duration": 36132939,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Bookings_table_is_displayed()"
 });
 formatter.result({
-  "duration": 18760750,
+  "duration": 49297654,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Date_Booked_Column_is_present()"
 });
 formatter.result({
-  "duration": 99741452,
+  "duration": 142546681,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Course_Name_Column_is_present()"
 });
 formatter.result({
-  "duration": 84311975,
+  "duration": 74154311,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Location_Column_is_present()"
 });
 formatter.result({
-  "duration": 66923076,
+  "duration": 99292778,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Schedule_Column_is_present()"
 });
 formatter.result({
-  "duration": 65319448,
+  "duration": 74340332,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Status_Column_is_present()"
 });
 formatter.result({
-  "duration": 71899886,
+  "duration": 74408325,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Actions_Column_is_present()"
 });
 formatter.result({
-  "duration": 67395612,
+  "duration": 73482497,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_pagination_is_present()"
 });
 formatter.result({
-  "duration": 18367326,
+  "duration": 18915109,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_the_Number_of_entries_shown_label_is_present()"
 });
 formatter.result({
-  "duration": 18738941,
+  "duration": 22465755,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Edit_button_is_present()"
 });
 formatter.result({
-  "duration": 66997057,
+  "duration": 72191471,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.verify_that_Details_Column_is_present()"
 });
 formatter.result({
-  "duration": 63891576,
+  "duration": 121066622,
   "status": "passed"
 });
 formatter.match({
   "location": "TestAskMsaSAPH30_Sprint10.close_Browser()"
 });
 formatter.result({
-  "duration": 166825747,
+  "duration": 219312125,
   "status": "passed"
 });
 });

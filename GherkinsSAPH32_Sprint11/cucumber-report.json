@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3983376168,
+              "duration": 4146414630,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 4728066027,
+              "duration": 2473530735,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1169676495,
+              "duration": 1286600344,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 1077890483,
+              "duration": 1146721244,
               "status": "passed"
             },
             "line": 7,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 7989050011,
+              "duration": 3162564231,
               "status": "passed"
             },
             "line": 8,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 1415514123,
+              "duration": 966113422,
               "status": "passed"
             },
             "line": 9,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 3903436891,
+              "duration": 3097831126,
               "status": "passed"
             },
             "line": 10,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 1186853258,
+              "duration": 1254374696,
               "status": "passed"
             },
             "line": 11,
@@ -108,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 2094851290,
+              "duration": 2226631509,
               "status": "passed"
             },
             "line": 12,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 201772114,
+              "duration": 198743355,
               "status": "passed"
             },
             "line": 13,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 1225061900,
+              "duration": 1342408298,
               "status": "passed"
             },
             "line": 14,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 81764844,
+              "duration": 106962396,
               "status": "passed"
             },
             "line": 15,
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 5868844,
+              "duration": 10925623,
               "status": "passed"
             },
             "line": 16,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 22510210,
+              "duration": 36603337,
               "status": "passed"
             },
             "line": 17,
@@ -180,9 +180,8 @@
           },
           {
             "result": {
-              "duration": 3074208130,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Success! You updated a course booking.]\u003e but was:\u003c[Booking updated!]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitionAskMsaSAPH32_Sprint11.TestAskMsaSAPH32_Sprint11.verify_that_successful_updated_message_is_correct(TestAskMsaSAPH32_Sprint11.java:140)\r\n\tat ✽.Then Verify that successful updated message is correct(EditBookingDetails.feature:18)\r\n",
-              "status": "failed"
+              "duration": 3097672046,
+              "status": "passed"
             },
             "line": 18,
             "name": "Verify that successful updated message is correct",
@@ -193,7 +192,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 26941,
+              "status": "passed"
             },
             "line": 19,
             "name": "Verify that booking details has been updated",
@@ -204,7 +204,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 18388,
+              "status": "passed"
             },
             "line": 20,
             "name": "Verify that Edit button is not available for a Closed Booking",
@@ -215,7 +216,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 122442748,
+              "status": "passed"
             },
             "line": 21,
             "name": "Close Browser",
